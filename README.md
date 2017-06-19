@@ -2,7 +2,21 @@
 
 This repository contains a collection of research data files that are used as a data corpus for analyzing and testing the integration of Archivematica into JISC's [Research Data Shared Service ](https://www.jisc.ac.uk/rd/projects/research-data-shared-service).
 
-Only files with open access rights are collected but errors do occur. If you find a file in this collection that is in violation of copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to rights holder information, and it will be deleted.
+Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
+
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/). The `/metadataFiles/` folder contains information about the http requests used to collect the files.
+
+## Attribution
+Additional files created in the course of acquiring and curating this collection are freely available under CC-BY-SA-4.0 license.
+
+...
+datacite.identifier: 10.5072/FK2JM29J5Z
+datacite.identifierType: DOI
+datacite.title: RDSS-Archivematica Test Data corpus
+datacite.creator: Peter Van Garderen
+datacite.publisher: Artefactual Systems
+datacite.publicationYear: 2017
+...
 
 ## Collection criteria
 The following criteria were used to evaluate the dataset files added to this collection:
