@@ -1,0 +1,17 @@
+https://ndownloader.figshare.com/articles/4665448/versions/1
+https://api.datacite.org/works/10.17028/rd.lboro.4665448.v1
+https://figshare.com/articles/Non-uniform_Mesh_for_Embroidered_Microstrip_Antennas_-_Simulation_files/4665448
+http://digital-library.theiet.org/deliver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.pdf?itemId=/content/journals/10.1049/iet-map.2016.0901&mimeType=pdf&isFastTrackArticle=true
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.01.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.02.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.03.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.04.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.05.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.06.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.07.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.08.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.09.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.10.gif
+http://digital-library.theiet.org/docserver/fulltext/10.1049/iet-map.2016.0901/10-1049-iet-map-2016-0901-table1.html
+https://api.crossref.org/works/10.1049/iet-map.2016.0901
+http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901
