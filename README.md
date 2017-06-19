@@ -4,7 +4,9 @@ This repository contains a collection of research data files that are used as a 
 
 Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
-The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/). The `/metadataFiles/` folder contains information about the http requests used to collect the files.
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/). 
+
+The `/metadataFiles/` folder contains information about the http requests used to collect the `/sourceFiles/` along with re-formatted or newly generated metadata related to these files.
 
 ## Attribution
 Additional files created in the course of acquiring and curating this collection are freely available under CC-BY-SA-4.0 license.
