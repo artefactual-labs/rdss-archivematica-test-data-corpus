@@ -1,12 +1,16 @@
-# rdss-archivematica-test-data-corpus
+# RDSS-Archivematica Test Data Corpus
 
-This repository contains a collection of research data files that are used as a data corpus for analyzing and testing the integration of Archivematica into JISC's [Research Data Shared Service ](https://www.jisc.ac.uk/rd/projects/research-data-shared-service).
+## About
+This repository contains a collection of research data files that are used as a data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service ](https://www.jisc.ac.uk/rd/projects/research-data-shared-service).
 
 Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
+## Arrangement
 The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/).
 
 The `/metadataFiles/` folder contains information about the http requests used to collect the `/sourceFiles/` along with re-formatted or newly generated metadata related to these files.
+
+The folders ending in `-SIP1`, `-SIP2`, etc. are the sample files and metadata that are prepared for use in RDSS test cases (where SIP = Submission Information Package). The first four characters of these folders are the last four characters of the corresponding dataset DOI.
 
 ## Attribution
 Additional files created in the course of acquiring and curating this collection are freely available under CC-BY-SA-4.0 license.
@@ -21,7 +25,7 @@ datacite.publicationYear: 2017
 datacite.resourceType: collection
 ```
 
-## Collection criteria
+## Appraisal
 The following criteria were used to evaluate the dataset files added to this collection:
 
 1. **License and rights**: The corpus files must be in the public domain or be published under a valid re-use license so that they can be freely shared amongst the many collaborators within the RDSS project as well as for the benefit of other interested parties.
