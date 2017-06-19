@@ -4,7 +4,7 @@ This repository contains a collection of research data files that are used as a 
 
 Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
-The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/). 
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/).
 
 The `/metadataFiles/` folder contains information about the http requests used to collect the `/sourceFiles/` along with re-formatted or newly generated metadata related to these files.
 
@@ -12,7 +12,7 @@ The `/metadataFiles/` folder contains information about the http requests used t
 Additional files created in the course of acquiring and curating this collection are freely available under CC-BY-SA-4.0 license.
 
 ```
-datacite.identifier: 10.5072/FK2JM29J5Z
+datacite.identifier: 10.5072/FK2JM29J5Z **_NOTE: TEMPORARY DOI - expires 02-07-2017_**
 datacite.identifierType: DOI
 datacite.title: RDSS-Archivematica Test Data corpus
 datacite.creator: Peter Van Garderen
@@ -56,11 +56,11 @@ The following criteria were used to evaluate the dataset files added to this col
 + publisher/reviewer/reader comments
 + access and use statistics
 
-7. **Dataset Packaging**:	At a minimum, one data set that contains a 'simple' package (e.g. a zip or tar file). A 'nice to have' feature would be a package with some standard semantics (e.g. a Bag with a manifest file)
+7. **Dataset Packaging**:	At a minimum, one data set that contains a 'simple' package (e.g. a zip or tar file). The test data should also includes a package with some standard semantics (e.g. a Bag with a manifest file)
 
 8. **Metadata Quality**:
 + Sample datasets and related articles must have a DOI.
 + Datacite has a mandatory core set of properties that must be provided in order for a dataset to receive a DOI. This is used as the minimum metadata requirement.
 + Preference is for higher quality metadata that includes more detailed technical, administrative, and descriptive information about the dataset creators and its context of creation and use.
-+ Preference is for metadata that is serialized (eg. XML, JSON, CSV) and standardized (e.g. Dublin Core, DATS, DCAT, PROV-O) in formats that are equivalent to those used by RDSS HEI pilot institutions in their RDM repositories. **_NOTE_** focus on application-specific metadata exports/APIs? eg Figshare, ePrints, Dspace, Fedora.
++ Preference is for metadata that is serialized (eg. XML, JSON, CSV) and standardized (e.g. Dublin Core, DATS, DCAT, PROV-O) in formats that are equivalent to those used by RDSS HEI pilot institutions in their RDM repositories.
 + Preference is for files that include published checksums.
