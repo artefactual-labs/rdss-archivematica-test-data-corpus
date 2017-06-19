@@ -24,7 +24,7 @@ datacite.publisher: Artefactual Systems
 datacite.publicationYear: 2017
 datacite.resourceType: collection
 ```
-_Note: Please don't cite this DOI. This is a temporary EZID DOI that expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This line will be erased when it does._
+_Note: Please don't cite this DOI. This is a valid, functioning, but temporary EZID DOI that expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This line will be erased when it does._
 
 ## Appraisal
 The following criteria were used to evaluate the dataset files added to this collection:
