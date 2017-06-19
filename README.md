@@ -12,7 +12,7 @@ The `/metadataFiles/` folder contains information about the http requests used t
 Additional files created in the course of acquiring and curating this collection are freely available under CC-BY-SA-4.0 license.
 
 ```
-datacite.identifier: 10.5072/FK2JM29J5Z **_NOTE: TEMPORARY DOI - expires 02-07-2017_**
+datacite.identifier: 10.5072/FK2JM29J5Z (TEMPORARY EZID DOI - expires 02-07-2017)
 datacite.identifierType: DOI
 datacite.title: RDSS-Archivematica Test Data corpus
 datacite.creator: Peter Van Garderen
