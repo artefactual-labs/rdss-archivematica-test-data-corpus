@@ -6,7 +6,7 @@ This repository contains a collection of research data files that are used as a 
 Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
 ## Arrangement
-The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/).
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the science and research domain to identify and locate canonical versions of published articles and their related datasets.
 
 The `/metadataFiles/` folder contains information about the http requests used to collect the `/sourceFiles/` along with re-formatted or newly generated metadata related to these files.
 
@@ -24,6 +24,7 @@ datacite.publisher: Artefactual Systems
 datacite.publicationYear: 2017
 datacite.resourceType: collection
 ```
+_Note: Please don't cite this DOI. This is a temporary EZID DOI that expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This line will be erased when it does._
 
 ## Appraisal
 The following criteria were used to evaluate the dataset files added to this collection:
