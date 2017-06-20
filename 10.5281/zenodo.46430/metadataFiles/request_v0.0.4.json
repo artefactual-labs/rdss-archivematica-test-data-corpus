@@ -1,0 +1,168 @@
+{
+  "@context": "https://www.jisc.ac.uk/rdss/schema/research_object.json/#/definitions/object",
+  "objectTitle": "Data: Cities and Regions in Britain through hierarchical percolation",
+  "objectUuid": "7bd488c7-04f2-4b1e-aed3-f449abfbd90e",
+  "objectIdentifier":[ {
+    "objectIdentifierValue": "10.5281/zenodo.46430",
+    "objectIdentifierType": "DOI"}
+   ],
+  "objectDate": [{
+    "dateValue": "02-2016",
+    "dateType": "published"
+    }],
+  "objectResourceType": "Dataset",
+  "objectPublisher": [{
+    "organisationRole": [{
+      "organisation": {
+        "organisationName": "Royal Society Open Science"},
+    "role": "publisher"
+    }]
+  }],
+  "objectContributor": {
+    "PersonRole": [{
+      "Person": {
+        "personUUID": "f8e6c9ff-e1d5-4b79-89b7-819d5b313dc5",
+	    "personGivenName": "Arcaute, Elsa"},
+      "Role": "dataCreator"},
+      {"Person": {
+        "personUUID": "ed52c75c-50b3-45e7-8ef3-85598443ac78",
+        "personGiveName": "UK Ordnance Survey"},
+	  "Role": "creator"}
+    ]
+  },
+  "objectFile": [{
+    "fileName": "UK_coordinates_mod.txt",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_coordinates_mod.txt",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "77162c173782bcc6d256559512297ff0"
+      }]
+  },
+  {
+    "fileName": "UK_ncol_mod.txt",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_ncol_mod.txt",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "bbbe3c81d3d64848afd875922735ab19"
+      }]
+  },
+  {
+    "fileName": "150691.full.pdf",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/150691.full.pdf",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "602240b55f977a57e5c508926c63f307"
+      }]
+  },
+  {
+    "fileName": "150691.reviewer-comments.pdf",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/150691.reviewer-comments.pdf",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "ceb1058e81a0a6f7e8776f2e821c3a29"
+      }]
+  },
+  {
+    "fileName": "Appendix_Arcaute.pdf",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/Appendix_Arcaute.pdf",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "77f64226a291065d25a749994f6d522d"
+      }]
+  },
+  {
+    "fileName": "rsos.150691.json",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/rsos.150691.json",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "91d6c2bca87647188fba93d80e89315d"
+      }]
+  },
+  {
+    "fileName": "zenodo.46430.json",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/zenodo.46430.json",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "79f5746e41a33b5150f289c303bce079"
+      }]
+  },
+  {
+    "fileName": "F1.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F1.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "3cb91d8ab39bdd68036ad7c64bc78cde"
+      }]
+  },
+  {
+    "fileName": "F2.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F2.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "80a6bbbc988427b54b4f60445d6068b3"
+      }]
+  },
+  {
+    "fileName": "F3.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F3.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "0a1bfabaa80565cd98f3a1d2ba971139"
+      }]
+  },
+  {
+    "fileName": "F4.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F4.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "03fd0a8c0165e16c5c590bd1e0cb3c28"
+      }]
+  },
+  {
+    "fileName": "F5.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F5.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "b729ab460b0d7c38a611905d6d3bb743"
+      }]
+  },
+  {
+    "fileName": "F6.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F6.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "9d48cbd451e5406268451b49f6810ce0"
+      }]
+  },
+  {
+    "fileName": "F7.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F7.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "796f665357a16bb8c765895ade906299"
+      }]
+  },
+  {
+    "fileName": "F8.large.jpg",
+    "fileStorageLocation": "s3://10.5281-zenodo.46430/F8.large.jpg",
+    "fileStorageType": "s3",
+    "fileChecksum": [{
+      "checksumType": "md5",
+      "checksumValue": "ba551ad1721aa7e136fe98c647df51d6"
+      }]
+  }]
+}
