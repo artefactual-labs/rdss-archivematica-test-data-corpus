@@ -1,0 +1,595 @@
+--2017-06-18 23:39:17--  https://risweb.st-andrews.ac.uk/portal/files/249738677/SpeckleData.zip
+Resolving risweb.st-andrews.ac.uk... 138.251.8.60
+Connecting to risweb.st-andrews.ac.uk|138.251.8.60|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Date: Mon, 19 Jun 2017 06:39:18 GMT
+  Set-Cookie: JSESSIONID=CF7AA71C7303F3C099FA3310155F4C33; Path=/portal/; Secure; HttpOnly
+  Last-Modified: Thu, 20 Apr 2017 13:30:08 GMT
+  Expires: 0
+  Cache-Control: must-revalidate, post-check=0, pre-check=0
+  Pragma: public
+  Content-Type: multipart/x-zip
+  Keep-Alive: timeout=5, max=100
+  Connection: Keep-Alive
+  Transfer-Encoding: chunked
+Length: unspecified [multipart/x-zip]
+Saving to: ‘../sourceFiles/SpeckleData.zip’
+
+     0K .......... .......... .......... .......... .......... 77.7K
+    50K .......... .......... .......... .......... .......... 67.4K
+   100K .......... .......... .......... .......... .......... 90.8K
+   150K .......... .......... .......... .......... .......... 98.3K
+   200K .......... .......... .......... .......... ..........  152K
+   250K .......... .......... .......... .......... ..........  152K
+   300K .......... .......... .......... .......... ..........  117K
+   350K .......... .......... .......... .......... ..........  143K
+   400K .......... .......... .......... .......... ..........  298K
+   450K .......... .......... .......... .......... ..........  292K
+   500K .......... .......... .......... .......... ..........  295K
+   550K .......... .......... .......... .......... ..........  160K
+   600K .......... .......... .......... .......... ..........  430K
+   650K .......... .......... .......... .......... ..........  763K
+   700K .......... .......... .......... .......... ..........  315K
+   750K .......... .......... .......... .......... ..........  308K
+   800K .......... .......... .......... .......... ..........  336K
+   850K .......... .......... .......... .......... ..........  470K
+   900K .......... .......... .......... .......... ..........  555K
+   950K .......... .......... .......... .......... ..........  376K
+  1000K .......... .......... .......... .......... .......... 1.42M
+  1050K .......... .......... .......... .......... ..........  324K
+  1100K .......... .......... .......... .......... .......... 2.83M
+  1150K .......... .......... .......... .......... ..........  357K
+  1200K .......... .......... .......... .......... .......... 2.47M
+  1250K .......... .......... .......... .......... ..........  473K
+  1300K .......... .......... .......... .......... ..........  848K
+  1350K .......... .......... .......... .......... ..........  552K
+  1400K .......... .......... .......... ...                   1.42M=6.3s
+
+2017-06-18 23:39:24 (227 KB/s) - ‘../sourceFiles/SpeckleData.zip’ saved [1467624]
+
+--2017-06-18 23:39:24--  https://api.datacite.org/works/10.17630/9448553f-a806-464b-a41c-7e2f0c80522b
+Resolving api.datacite.org... 52.18.162.183, 34.250.134.147
+Connecting to api.datacite.org|52.18.162.183|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,Accept,Accept-Encoding,Origin,User-Agent,Cache-Control,Keep-Alive
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Max-Age: 1728000
+  Cache-Control: max-age=0, private, must-revalidate
+  Content-Type: application/vnd.api+json; charset=utf-8
+  Date: Mon, 19 Jun 2017 06:39:25 GMT
+  ETag: W/"45bd0e7a90387204ca6c0afcbee283a3"
+  Server: openresty/1.11.2.2
+  Status: 200 OK
+  Vary: Accept-Encoding
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-Powered-By: Phusion Passenger 5.1.4
+  X-Request-Id: 80e5f3c7-fa6c-4eab-bb07-5e547cd2ae0a
+  X-Runtime: 0.076566
+  X-XSS-Protection: 1; mode=block
+  Content-Length: 3754
+  Connection: keep-alive
+Length: 3754 (3.7K) [application/vnd.api+json]
+Saving to: ‘../sourceFiles/9448553f-a806-464b-a41c-7e2f0c80522b’
+
+     0K ...                                                   100%  170M=0s
+
+2017-06-18 23:39:25 (170 MB/s) - ‘../sourceFiles/9448553f-a806-464b-a41c-7e2f0c80522b’ saved [3754/3754]
+
+--2017-06-18 23:39:25--  https://www.nature.com/articles/ncomms15610.pdf?proof=true
+Resolving www.nature.com... 151.101.52.95
+Connecting to www.nature.com|151.101.52.95|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 303 See Other
+  Cache-Control: private, must-revalidate
+  Content-Type: */*; charset="UTF-8"
+  Expires: 0
+  Location: https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue
+  Server: Oscar Platform 201702201028-373
+  Set-Cookie: user.uuid="utterlyidle:v1:ZDZlYzZiMTAtOWNhYS00MTE2LWFkODQtNDA3MGUzMmI5ZWNl"; Path=/
+  X-B3-Parentspanid: 4d9d8d4102f8613f
+  X-B3-Spanid: eeee22c433ac9d63
+  X-B3-Traceid: b34b4e64dcdbbadb
+  X-Content-Type-Options: nosniff
+  X-Forwarded-Host: www.nature.com
+  X-Frame-Options: DENY
+  X-Sn-Servicetimems: 31
+  X-Vcap-Request-Id: 89188820-2882-4bfe-420e-acf5cc281b2c
+  X-Vcap-Request-Id: 5dfec92b-5eec-4d87-67fc-5a868d359a89
+  X-Xss-Protection: 1; mode=block
+  Content-Length: 0
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:26 GMT
+  Via: 1.1 varnish
+  Connection: keep-alive
+  X-Served-By: cache-sea1046-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854366.935998,VS0,VE277
+  Vary: Accept-Encoding,Accept,x-oscar-cache-mode,x-springer-property-json
+Location: https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue [following]
+--2017-06-18 23:39:26--  https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue
+Resolving idp.nature.com... 151.101.52.95
+Connecting to idp.nature.com|151.101.52.95|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 302 Found
+  Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+  Expires: 0
+  Location: https://idp.nature.com/transit?redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue
+  Pragma: no-cache
+  Set-Cookie: idp_session=sVERSION_16accbf8b-268e-4d27-9abe-b0167f7b0488; Domain=.nature.com; Path=/; Secure; HttpOnly
+  Set-Cookie: idp_session_http=hVERSION_11b6540ee-95f8-4d41-abd5-7677a8929a82; Domain=.nature.com; Path=/; HttpOnly
+  Set-Cookie: idp_marker=e3be0110-1cfe-48d2-af8a-712c28b40538; Domain=.nature.com; Path=/; Max-Age=315360000; HttpOnly
+  Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+  X-B3-Spanid: 0590babb9658f1be
+  X-B3-Traceid: 78078a65bd3e07ee
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-Vcap-Request-Id: 42b60719-6ee3-41b7-689b-0260a1f2a511
+  X-Xss-Protection: 1; mode=block
+  Content-Length: 0
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:26 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1039-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854366.328554,VS0,VE175
+  Vary: x-forwarded-proto
+Location: https://idp.nature.com/transit?redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue [following]
+--2017-06-18 23:39:26--  https://idp.nature.com/transit?redirect_uri=http%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms15610.pdf%3Fproof%3Dtrue
+Reusing existing connection to idp.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 302 Found
+  Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+  Content-Language: en-US
+  Expires: 0
+  Location: http://www.nature.com/articles/ncomms15610.pdf?proof=true
+  Pragma: no-cache
+  Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+  X-B3-Spanid: c2a63d9999df6fed
+  X-B3-Traceid: 358e90a8098fe4e7
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-Vcap-Request-Id: 634df32b-bf0f-470d-438a-68ee7fe34659
+  X-Xss-Protection: 1; mode=block
+  Content-Length: 0
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:26 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1039-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854367.524011,VS0,VE185
+  Vary: x-forwarded-proto
+Location: http://www.nature.com/articles/ncomms15610.pdf?proof=true [following]
+--2017-06-18 23:39:26--  http://www.nature.com/articles/ncomms15610.pdf?proof=true
+Connecting to www.nature.com|151.101.52.95|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: private, max-age=607
+  Content-Md5: Ya0p7KZjZnJcOKogyTQlDQ==
+  Content-Type: application/pdf
+  Etag: "61ad29eca66366725c38aa20c934250d"
+  Server: Oscar Platform 201702201028-373
+  Set-Cookie: WT_FPC="utterlyidle:v1:MTk1LjEyOC4xMC4xMDMtMzQyMjU4NTY2NC4zMDU5OTM2Ng==";
+  Set-Cookie: CONTENT_USAGE_SESSIONID="utterlyidle:v1:ZWJlZjJkYjUtMGFmYy00YzJlLTg1OGQtNDlmMjkyZTY0MDVh";
+  X-B3-Parentspanid: 8101067570c2e8a3
+  X-B3-Spanid: 2fd7941696bb0e04
+  X-B3-Traceid: 49015d0273421c7d
+  X-Content-Type-Options: nosniff
+  X-Forwarded-Host: www.nature.com
+  X-Frame-Options: DENY
+  X-Sn-Servicetimems: 295
+  X-Vcap-Request-Id: f3a45d14-64aa-414f-44d6-2d665443ee36
+  X-Vcap-Request-Id: f4c2c0aa-cff4-461f-4021-a733a719c11a
+  X-Xss-Protection: 1; mode=block
+  Content-Length: 1152223
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:27 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1030-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854367.760542,VS0,VE526
+  Vary: Accept-Encoding,Accept,x-oscar-cache-mode,x-springer-property-json
+Length: 1152223 (1.1M) [application/pdf]
+Saving to: ‘../sourceFiles/ncomms15610.pdf?proof=true’
+
+     0K .......... .......... .......... .......... ..........  4%  330K 3s
+    50K .......... .......... .......... .......... ..........  8%  318K 3s
+   100K .......... .......... .......... .......... .......... 13%  297K 3s
+   150K .......... .......... .......... .......... .......... 17%  317K 3s
+   200K .......... .......... .......... .......... .......... 22%  318K 3s
+   250K .......... .......... .......... .......... .......... 26%  320K 3s
+   300K .......... .......... .......... .......... .......... 31%  320K 2s
+   350K .......... .......... .......... .......... .......... 35%  321K 2s
+   400K .......... .......... .......... .......... .......... 39%  315K 2s
+   450K .......... .......... .......... .......... .......... 44%  317K 2s
+   500K .......... .......... .......... .......... .......... 48%  324K 2s
+   550K .......... .......... .......... .......... .......... 53%  206K 2s
+   600K .......... .......... .......... .......... .......... 57%  623K 2s
+   650K .......... .......... .......... .......... .......... 62%  313K 1s
+   700K .......... .......... .......... .......... .......... 66% 2.55M 1s
+   750K .......... .......... .......... .......... .......... 71%  203K 1s
+   800K .......... .......... .......... .......... .......... 75%  402K 1s
+   850K .......... .......... .......... .......... .......... 79%  288K 1s
+   900K .......... .......... .......... .......... .......... 84% 4.21M 1s
+   950K .......... .......... .......... .......... .......... 88%  303K 0s
+  1000K .......... .......... .......... .......... .......... 93%  313K 0s
+  1050K .......... .......... .......... .......... .......... 97%  164K 0s
+  1100K .......... .......... .....                           100% 40.4M=3.4s
+
+2017-06-18 23:39:30 (329 KB/s) - ‘../sourceFiles/ncomms15610.pdf?proof=true’ saved [1152223/1152223]
+
+--2017-06-18 23:39:30--  https://www.nature.com/article-assets/npg/ncomms/2017/170605/ncomms15610/extref/ncomms15610-s1.pdf
+Connecting to www.nature.com|151.101.52.95|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Type: application/pdf
+  Last-Modified: Mon, 05 Jun 2017 12:21:05 GMT
+  P3p: CP="CAO DSP LAW IVA IVD HIS OUR UNR STP UNI COM"
+  Server: Oscar Platform 201702201028-373
+  Set-Cookie: SaneID=10.1.1.225.1497854371006977; path=/; domain=.nature.com
+  Set-Cookie: BIGipServer~Nature~jetty_pubserv=1258357002.20480.0000; path=/
+  X-Vcap-Request-Id: 16461c46-6b20-416b-4416-f6fbc2c24c1f
+  Content-Length: 2358408
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:31 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1042-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854371.925422,VS0,VE235
+Length: 2358408 (2.2M) [application/pdf]
+Saving to: ‘../sourceFiles/ncomms15610-s1.pdf’
+
+     0K .......... .......... .......... .......... ..........  2%  165K 14s
+    50K .......... .......... .......... .......... ..........  4%  159K 14s
+   100K .......... .......... .......... .......... ..........  6%  156K 13s
+   150K .......... .......... .......... .......... ..........  8%  106K 15s
+   200K .......... .......... .......... .......... .......... 10%  188K 14s
+   250K .......... .......... .......... .......... .......... 13%  481K 12s
+   300K .......... .......... .......... .......... .......... 15%  850K 10s
+   350K .......... .......... .......... .......... .......... 17% 1.13M 9s
+   400K .......... .......... .......... .......... .......... 19% 1.59M 8s
+   450K .......... .......... .......... .......... .......... 21%  817K 7s
+   500K .......... .......... .......... .......... .......... 23% 1.35M 6s
+   550K .......... .......... .......... .......... .......... 26% 1.25M 6s
+   600K .......... .......... .......... .......... .......... 28% 1.55M 5s
+   650K .......... .......... .......... .......... .......... 30% 1.59M 5s
+   700K .......... .......... .......... .......... .......... 32% 1.95M 4s
+   750K .......... .......... .......... .......... .......... 34% 1.74M 4s
+   800K .......... .......... .......... .......... .......... 36%  994K 4s
+   850K .......... .......... .......... .......... .......... 39%  361K 4s
+   900K .......... .......... .......... .......... .......... 41%  355K 4s
+   950K .......... .......... .......... .......... .......... 43% 1.90M 3s
+  1000K .......... .......... .......... .......... .......... 45%  357K 3s
+  1050K .......... .......... .......... .......... .......... 47%  375K 3s
+  1100K .......... .......... .......... .......... .......... 49%  347K 3s
+  1150K .......... .......... .......... .......... .......... 52%  344K 3s
+  1200K .......... .......... .......... .......... .......... 54% 1.11M 3s
+  1250K .......... .......... .......... .......... .......... 56%  427K 3s
+  1300K .......... .......... .......... .......... .......... 58%  357K 2s
+  1350K .......... .......... .......... .......... .......... 60%  350K 2s
+  1400K .......... .......... .......... .......... .......... 62%  369K 2s
+  1450K .......... .......... .......... .......... .......... 65%  338K 2s
+  1500K .......... .......... .......... .......... .......... 67% 3.01M 2s
+  1550K .......... .......... .......... .......... .......... 69%  364K 2s
+  1600K .......... .......... .......... .......... .......... 71%  347K 2s
+  1650K .......... .......... .......... .......... .......... 73%  342K 2s
+  1700K .......... .......... .......... .......... .......... 75%  352K 1s
+  1750K .......... .......... .......... .......... .......... 78% 2.67M 1s
+  1800K .......... .......... .......... .......... .......... 80%  356K 1s
+  1850K .......... .......... .......... .......... .......... 82%  357K 1s
+  1900K .......... .......... .......... .......... .......... 84%  344K 1s
+  1950K .......... .......... .......... .......... .......... 86%  346K 1s
+  2000K .......... .......... .......... .......... .......... 89% 1.01M 1s
+  2050K .......... .......... .......... .......... .......... 91%  441K 0s
+  2100K .......... .......... .......... .......... .......... 93%  372K 0s
+  2150K .......... .......... .......... .......... .......... 95%  347K 0s
+  2200K .......... .......... .......... .......... .......... 97%  329K 0s
+  2250K .......... .......... .......... .......... .......... 99% 4.10M 0s
+  2300K ...                                                   100% 62.7K=5.6s
+
+2017-06-18 23:39:36 (412 KB/s) - ‘../sourceFiles/ncomms15610-s1.pdf’ saved [2358408/2358408]
+
+--2017-06-18 23:39:36--  https://www.nature.com/article-assets/npg/ncomms/2017/170605/ncomms15610/extref/ncomms15610-s2.pdf
+Reusing existing connection to www.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Type: application/pdf
+  Last-Modified: Mon, 05 Jun 2017 12:21:05 GMT
+  P3p: CP="CAO DSP LAW IVA IVD HIS OUR UNR STP UNI COM"
+  Server: Oscar Platform 201702201028-373
+  X-Vcap-Request-Id: f7ca034c-54d0-43f2-4fd4-d7b1f22bb6ae
+  Content-Length: 639314
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:36 GMT
+  Via: 1.1 varnish
+  Age: 553
+  Connection: keep-alive
+  X-Served-By: cache-sea1042-SEA
+  X-Cache: HIT
+  X-Cache-Hits: 1
+  X-Timer: S1497854377.773511,VS0,VE3
+Length: 639314 (624K) [application/pdf]
+Saving to: ‘../sourceFiles/ncomms15610-s2.pdf’
+
+     0K .......... .......... .......... .......... ..........  8% 2.67M 0s
+    50K .......... .......... .......... .......... .......... 16% 2.30M 0s
+   100K .......... .......... .......... .......... .......... 24% 3.15M 0s
+   150K .......... .......... .......... .......... .......... 32% 3.19M 0s
+   200K .......... .......... .......... .......... .......... 40% 2.49M 0s
+   250K .......... .......... .......... .......... .......... 48% 3.45M 0s
+   300K .......... .......... .......... .......... .......... 56% 3.07M 0s
+   350K .......... .......... .......... .......... .......... 64% 2.43M 0s
+   400K .......... .......... .......... .......... .......... 72% 2.75M 0s
+   450K .......... .......... .......... .......... .......... 80% 3.66M 0s
+   500K .......... .......... .......... .......... .......... 88% 3.42M 0s
+   550K .......... .......... .......... .......... .......... 96% 2.60M 0s
+   600K .......... .......... ....                            100% 6.45M=0.2s
+
+2017-06-18 23:39:37 (2.93 MB/s) - ‘../sourceFiles/ncomms15610-s2.pdf’ saved [639314/639314]
+
+--2017-06-18 23:39:37--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f1.jpg
+Resolving images.nature.com... 151.101.52.95
+Connecting to images.nature.com|151.101.52.95|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 8831e9f9-143d-4f6e-5c35-a4b2523c8e6a
+  Content-Length: 63066
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:37 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854377.111508,VS0,VE287
+  Vary: Accept, Accept-Encoding
+Length: 63066 (62K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f1.jpg’
+
+     0K .......... .......... .......... .......... .......... 81% 1.07M 0s
+    50K .......... .                                          100%  102M=0.05s
+
+2017-06-18 23:39:37 (1.31 MB/s) - ‘../sourceFiles/ncomms15610-f1.jpg’ saved [63066/63066]
+
+--2017-06-18 23:39:37--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f2.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 3dc8a65d-d113-47f4-65e5-7c3f580438df
+  Content-Length: 65868
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:38 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854378.512970,VS0,VE534
+  Vary: Accept, Accept-Encoding
+Length: 65868 (64K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f2.jpg’
+
+     0K .......... .......... .......... .......... .......... 77% 1.28M 0s
+    50K .......... ....                                       100% 97.1M=0.04s
+
+2017-06-18 23:39:38 (1.64 MB/s) - ‘../sourceFiles/ncomms15610-f2.jpg’ saved [65868/65868]
+
+--2017-06-18 23:39:38--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f3.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: ae0e2728-566b-4a51-4d3d-40ef13f5673b
+  Content-Length: 203501
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:39 GMT
+  Via: 1.1 varnish
+  Age: 1
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854378.116864,VS0,VE1658
+  Vary: Accept, Accept-Encoding
+Length: 203501 (199K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f3.jpg’
+
+     0K .......... .......... .......... .......... .......... 25% 1.35M 0s
+    50K .......... .......... .......... .......... .......... 50%  173K 0s
+   100K .......... .......... .......... .......... .......... 75%  305K 0s
+   150K .......... .......... .......... .......... ........  100%  279K=0.7s
+
+2017-06-18 23:39:40 (299 KB/s) - ‘../sourceFiles/ncomms15610-f3.jpg’ saved [203501/203501]
+
+--2017-06-18 23:39:40--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f4.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 88e6a724-a8a7-4b35-54da-74b17b301798
+  Content-Length: 177547
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:41 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854381.552336,VS0,VE853
+  Vary: Accept, Accept-Encoding
+Length: 177547 (173K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f4.jpg’
+
+     0K .......... .......... .......... .......... .......... 28% 60.6K 2s
+    50K .......... .......... .......... .......... .......... 57%  215K 1s
+   100K .......... .......... .......... .......... .......... 86%  544K 0s
+   150K .......... .......... ...                             100% 1.16M=1.2s
+
+2017-06-18 23:39:42 (148 KB/s) - ‘../sourceFiles/ncomms15610-f4.jpg’ saved [177547/177547]
+
+--2017-06-18 23:39:42--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f5.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 01e7d9d0-7f31-40a1-6689-a4553541f983
+  Content-Length: 72852
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:43 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854383.609725,VS0,VE702
+  Vary: Accept, Accept-Encoding
+Length: 72852 (71K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f5.jpg’
+
+     0K .......... .......... .......... .......... .......... 70%  846K 0s
+    50K .......... .......... .                               100% 2.09M=0.07s
+
+2017-06-18 23:39:43 (1.01 MB/s) - ‘../sourceFiles/ncomms15610-f5.jpg’ saved [72852/72852]
+
+--2017-06-18 23:39:43--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f6.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 450f67d6-36f5-4c5a-5751-5ad9b877d954
+  Content-Length: 103961
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:43 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854383.404464,VS0,VE591
+  Vary: Accept, Accept-Encoding
+Length: 103961 (102K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f6.jpg’
+
+     0K .......... .......... .......... .......... .......... 49% 1.15M 0s
+    50K .......... .......... .......... .......... .......... 98% 1.80M 0s
+   100K .                                                     100% 30.5K=0.07s
+
+2017-06-18 23:39:44 (1.43 MB/s) - ‘../sourceFiles/ncomms15610-f6.jpg’ saved [103961/103961]
+
+--2017-06-18 23:39:44--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f7.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 01110435-2df9-485f-5947-b9651741a662
+  Content-Length: 126015
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:44 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854384.094514,VS0,VE713
+  Vary: Accept, Accept-Encoding
+Length: 126015 (123K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f7.jpg’
+
+     0K .......... .......... .......... .......... .......... 40% 1.18M 0s
+    50K .......... .......... .......... .......... .......... 81% 1.33M 0s
+   100K .......... .......... ...                             100% 3.49M=0.08s
+
+2017-06-18 23:39:44 (1.42 MB/s) - ‘../sourceFiles/ncomms15610-f7.jpg’ saved [126015/126015]
+
+--2017-06-18 23:39:44--  https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f8.jpg
+Reusing existing connection to images.nature.com:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Cache-Control: public, max-age=86400
+  Content-Type: image/jpeg
+  Server: PasteWSGIServer/0.5 Python/2.7.11
+  X-Vcap-Request-Id: 69a1391c-43d9-4bca-79f9-a35acadce372
+  Content-Length: 105563
+  Accept-Ranges: bytes
+  Date: Mon, 19 Jun 2017 06:39:45 GMT
+  Via: 1.1 varnish
+  Age: 0
+  Connection: keep-alive
+  X-Served-By: cache-sea1025-SEA
+  X-Cache: MISS
+  X-Cache-Hits: 0
+  X-Timer: S1497854385.926917,VS0,VE736
+  Vary: Accept, Accept-Encoding
+Length: 105563 (103K) [image/jpeg]
+Saving to: ‘../sourceFiles/ncomms15610-f8.jpg’
+
+     0K .......... .......... .......... .......... .......... 48% 1.52M 0s
+    50K .......... .......... .......... .......... .......... 97% 1.90M 0s
+   100K ...                                                   100% 61.8K=0.06s
+
+2017-06-18 23:39:45 (1.74 MB/s) - ‘../sourceFiles/ncomms15610-f8.jpg’ saved [105563/105563]
+
+--2017-06-18 23:39:45--  https://api.crossref.org/works/10.1038/ncomms15610
+Resolving api.crossref.org... 208.254.38.72
+Connecting to api.crossref.org|208.254.38.72|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Type: application/json;charset=UTF-8
+  Vary: Accept
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: X-Requested-With
+  Content-Length: 7200
+  Server: http-kit
+  Date: Mon, 19 Jun 2017 06:39:46 GMT
+  X-Rate-Limit-Limit: 50
+  X-Rate-Limit-Interval: 1s
+  Connection: close
+Length: 7200 (7.0K) [application/json]
+Saving to: ‘../sourceFiles/ncomms15610’
+
+     0K .......                                               100%  851K=0.008s
+
+2017-06-18 23:39:46 (851 KB/s) - ‘../sourceFiles/ncomms15610’ saved [7200/7200]
+
+FINISHED --2017-06-18 23:39:46--
+Total wall clock time: 29s
+Downloaded: 14 files, 6.2M in 18s (360 KB/s)
+Converted links in 0 files in 0 seconds.

@@ -1,0 +1,14 @@
+https://risweb.st-andrews.ac.uk/portal/files/249738677/SpeckleData.zip
+https://api.datacite.org/works/10.17630/9448553f-a806-464b-a41c-7e2f0c80522b
+https://www.nature.com/articles/ncomms15610.pdf?proof=true
+https://www.nature.com/article-assets/npg/ncomms/2017/170605/ncomms15610/extref/ncomms15610-s1.pdf
+https://www.nature.com/article-assets/npg/ncomms/2017/170605/ncomms15610/extref/ncomms15610-s2.pdf
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f1.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f2.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f3.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f4.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f5.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f6.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f7.jpg
+https://images.nature.com/w926/nature-draft/article-assets/npg/ncomms/2017/170605/ncomms15610/images/ncomms15610-f8.jpg
+https://api.crossref.org/works/10.1038/ncomms15610

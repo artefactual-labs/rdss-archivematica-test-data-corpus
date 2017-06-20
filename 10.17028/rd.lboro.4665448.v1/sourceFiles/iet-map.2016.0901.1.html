@@ -1,0 +1,837 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>IET Digital Library: Non-uniform mesh for embroidered microstrip antennas</title>
+<!-- /WEB-INF/jsp/journal/fasttrackarticle.jsp -->
+<link rel="schema.CRAWLER" href="http://labs.ingenta.com/2006/06/16/crawler" />
+<meta name="author" content="Shiyu Zhang|William Whittow|Rob Seager|Alford Chauraya|J(Yiannis) C. Vardaxoglou" />
+<meta name="keywords" content="efficiency 20 percent|conductor area coverage|wearable microstrip patch antennas|nonuniform meshed embroidered structure|fully textile embroidered NMPA|surface current distribution|nonuniform meshed patch antenna|embroidered microstrip antennas|embroidered NMPA reduced manufacturing cost|conductive materials" />
+<meta name="description" content="This study presents a non-uniform meshed embroidered structure for wearable microstrip patch antennas. The non-uniform meshed patch antenna (NMPA) has significantly less conductor coverage than a conventional patch antenna without significantly compromise the antenna performance. For wearable applications, less conductor coverage reduces the usage of the specialised conductive materials which are currently expensive. The embroidered NMPA reduced manufacturing cost and improves the flexibility. In this study, the surface current distribution and the effect of the meshing size of NMPAs have been simulated and analysed. Fully textile embroidered NMPA on felt substrate has been fabricated and measured. Representative results showed the NMPA had a 60% total antenna efficiency with 20% conductor area coverage." />
+<meta name="dc.identifier" content="doi:10.1049/iet-map.2016.0901"/>
+<meta name="dc.date" content="2017/02/20" />
+<meta name="citation_journal_title" content="IET Microwaves, Antennas &amp;amp; Propagation"/>
+<meta name="citation_issn" content="1751-8733"/>
+<meta name="citation_online_date" content="2017/02/20"/>
+<meta name="citation_title" content="Non-uniform mesh for embroidered microstrip antennas"/>
+<meta name="citation_author" content="Shiyu Zhang" />
+<meta name="citation_author_institution" content=" Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK " />
+<meta name="citation_author" content="William Whittow" />
+<meta name="citation_author_institution" content=" Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK " />
+<meta name="citation_author" content="Rob Seager" />
+<meta name="citation_author_institution" content=" Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK " />
+<meta name="citation_author" content="Alford Chauraya" />
+<meta name="citation_author_institution" content=" Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK " />
+<meta name="citation_author" content="J(Yiannis) C. Vardaxoglou" />
+<meta name="citation_author_institution" content=" Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK " />
+<meta name="citation_publisher" content="IET Digital Library"/>
+<meta name="citation_keywords" content="efficiency 20 percent; conductor area coverage; wearable microstrip patch antennas; nonuniform meshed embroidered structure; fully textile embroidered NMPA; surface current distribution; nonuniform meshed patch antenna; embroidered microstrip antennas; embroidered NMPA reduced manufacturing cost; conductive materials"/>
+<meta name="citation_abstract" content="This study presents a non-uniform meshed embroidered structure for wearable microstrip patch antennas. The non-uniform meshed patch antenna (NMPA) has significantly less conductor coverage than a conventional patch antenna without significantly compromise the antenna performance. For wearable applications, less conductor coverage reduces the usage of the specialised conductive materials which are currently expensive. The embroidered NMPA reduced manufacturing cost and improves the flexibility. In this study, the surface current distribution and the effect of the meshing size of NMPAs have been simulated and analysed. Fully textile embroidered NMPA on felt substrate has been fabricated and measured. Representative results showed the NMPA had a 60% total antenna efficiency with 20% conductor area coverage."/>
+<meta name="citation_abstract_html_url" content="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.CRAWLER" href="http://labs.ingenta.com/2006/06/16/crawler" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="Non-uniform mesh for embroidered microstrip antennas"/>
+<meta name="DC.type" scheme="DCMIType" content="Text"/>
+<meta name="DC.creator" content="Shiyu Zhang"/><meta name="DC.creator" content="William Whittow"/><meta name="DC.creator" content="Rob Seager"/><meta name="DC.creator" content="Alford Chauraya"/><meta name="DC.creator" content="J(Yiannis) C. Vardaxoglou"/><meta name="DC.publisher" content="IET Digital Library"/>
+<meta name="DCTERMS.issued" content="February 2017"/>
+<meta name="citation_publication_date" content="2017/02/20"/>
+<!-- OAS SETUP begin -->
+<script type="text/javascript">
+<!--
+//configuration
+OAS_url ='http://oas.theiet.org/RealMedia/ads/';
+OAS_listpos = 'Top,Right1,Right2';
+OAS_query = '?';
+OAS_sitepage = 'digital-library.theiet.org';
+//end of configuration
+OAS_version = 10;
+OAS_rn = '001234567890'; OAS_rns = '1234567890';
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+function OAS_NORMAL(pos) {
+document.write('<a href="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" target=_top>');
+document.write('<img scr="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" border=0 alt="Click!"></a>');
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+OAS_version = 11;
+if (navigator.userAgent.indexOf('Mozilla/3') != -1)
+OAS_version = 10;
+if (OAS_version >= 11)
+document.write('<SC'+'RIPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + OAS_query + '"><\/SCRIPT>');
+//-->
+</script>
+<script type="text/javascript">
+<!--
+document.write('');
+function OAS_AD(pos) {
+if (OAS_version >= 11 && typeof(OAS_RICH)!='undefined')
+OAS_RICH(pos);
+else
+OAS_NORMAL(pos);
+}
+//-->
+</script>
+<!-- OAS SETUP end -->
+<link rel="shortcut icon" href="http://digital-library.theiet.org/images/iet/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/blueprint/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/iet/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/body.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/shopping.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/blurb/blurb.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/jquery-ui.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/iet/jquery.bookmark.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/iet/site.css?2" type="text/css" charset="utf-8" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/css/iet/ie7-8.css" type="text/css" />
+<![endif]--> 
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="/css/iet/ie7.css" type="text/css" />
+<![endif]-->
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/shopping.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/contentpreview/preview.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/jp/tabset.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://digital-library.theiet.org/css/iet/fulltext-html-tab.css" type="text/css" media="screen" charset="utf-8" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js" ></script>
+<![endif]-->
+<!--[if lt IE 7]>
+<script src="/js/jp/IE7.js" type="text/javascript"></script>
+<![endif]-->
+<script src="http://digital-library.theiet.org/js/jp/jquery.js" type="text/javascript"></script>
+<script src="http://digital-library.theiet.org/js/jp/jquery-ui.js" type="text/javascript" charset="utf-8"></script> 
+<script src="http://digital-library.theiet.org/js/jp/jquery.form.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/blurb/blurb.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/jp/wymeditor/jquery.wymeditor.js" type="text/javascript"></script>
+<script src="http://digital-library.theiet.org/js/iet/jquery-hashchange-plugin.js" type="text/javascript"></script>
+<script src="http://digital-library.theiet.org/js/iet/site-jp.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/admin/metastore-tools-popup.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/pricing/price-tools-popup.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/iet/jquery.example.min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="http://digital-library.theiet.org/js/iet/jquery.bookmark.min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="http://digital-library.theiet.org/js/iet/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script> 
+<script src="http://digital-library.theiet.org/js/iet/site.js?2" type="text/javascript" charset="utf-8"></script> 
+<script type="text/javascript">
+// helper: insert MathJax script tage using CDNJS and 
+var insertMathJax = function(version) {
+script = document.createElement('script');
+script.type = 'text/javascript';
+script.async = true;
+if (version) {
+script.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/' + version + '/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+} else {
+script.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+}
+document.getElementsByTagName('head')[0].appendChild(script);
+}
+// Look up latest version on CDNJS and insertMathJax
+var xmlHttp = new XMLHttpRequest();
+xmlHttp.onreadystatechange = function() {
+if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+insertMathJax(JSON.parse(xmlHttp.responseText).version);
+} else {
+insertMathJax();
+}
+}
+xmlHttp.open('GET', 'https://api.cdnjs.com/libraries/mathjax?fields=version', true); 
+xmlHttp.send(null);
+</script> 
+<script src="http://digital-library.theiet.org/js/contentpreview/preview.js?2" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/jp/jquery.validate.js?2" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/iet/jwplayer.js?2" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/iet/article_ahah.js?2" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/iet/fulltext-html-tab.js?2" type="text/javascript" charset="utf-8"></script>
+<script src="http://digital-library.theiet.org/js/iet/moreLikeThis.js?2" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-12690477-6'],
+['_trackPageview'],
+['b._setAccount', 'UA-12690477-3'],
+['b._setDomainName', '.theiet.org'],
+['b._trackPageview']
+);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+var skinPublishingDates = '1887';
+</script>
+<script type="text/javascript" src="http://www.theiet.org/staticfiles/scripts/webtrends/digital_library/webtrends.load.js"></script>
+</head>
+<body id="article" class="js-notLoggedIn" >
+<div id="hiddenContext"></div>
+<div id="metastorePrefixIdentifier" class="hiddenjsdiv">http://iet.metastore.ingenta.com</div>
+<div id="skinPublishingDates" class="hiddenjsdiv">1887</div>
+<div id="maincontainer">
+<div id="container" class="container">
+<div id="header" class="contain">
+<div id="iet-header">
+<div id="banner" class="contain">
+<div class="lefttopmenu">
+<span class="normal-color">Visit</span> 
+<a href="http://www.theiet.org" title="" 
+target="_blank" >www.theiet.org</a> | 
+<a href="http://www.theiet.org/my" title="" 
+target="_blank" >My IET</a> 
+</div>
+<div class="righttopnav">
+<a id="cartlink" 
+class="shoppingcart" href="http://digital-library.theiet.org/cart">Shopping cart</a>
+| 
+<a href="http://digital-library.theiet.org/content/subscriptions" title="" 
+>Subscribe</a> | 
+<a href="http://digital-library.theiet.org/contacts" title="" 
+>Contacts</a> | 
+<a href="http://digital-library.theiet.org/help" title="" 
+>Help</a>
+</div>
+<h1 id="logo">
+<a href="http://digital-library.theiet.org/" title="" 
+><img src="http://digital-library.theiet.org/images/iet/iet-logo.gif" alt="IET Digital Library" /></a></h1>
+<div id="searchBox" class="contain">
+<form id="global-search-form" action="http://digital-library.theiet.org/search">
+<div class="searchDiv">
+<input type="text" id="quickSearchBox" class="searchcomplete" name="value1" /> 
+<input type="hidden" value="all" name="option1" />
+<input type="hidden" value="contentType" name="option2" />
+<input type="hidden" value="20" name="pageSize" />
+<select name="value2" id="value2">
+<option value="" selected="selected">All content</option>
+<option value="Journal">Journals &amp; magazines</option>
+<option value="Conference">Conferences</option>
+<option value="Book">Books</option>
+<option value="ReferenceWorks">Reference Work</option> 
+</select>
+<input type="image" src="http://digital-library.theiet.org/images/iet/search-button.gif" alt="Search" id="searchbutton" /> 
+</div> 
+<p>
+<a href="http://digital-library.theiet.org/search/advancedsearch" title="" 
+>Advanced search</a></p>
+</form> 
+</div>
+</div>
+<div id="navbar">
+<ul>
+<li class=" active button2">
+<a href="http://digital-library.theiet.org/content/journals" title="" 
+><span>Journals &amp; magazines</span></a></li>
+<li class=" button3">
+<a href="http://digital-library.theiet.org/content/conferences?order=date" title="" 
+><span>Conferences</span></a></li>
+<li class=" button4">
+<a href="http://digital-library.theiet.org/content/books?order=date" title="" 
+><span>eBooks</span></a></li>
+<li class=" button1">
+<a href="http://digital-library.theiet.org/content/reference/etr" title="" 
+><span>Reference</span></a></li>
+<li class=" button5" id="subjectLink">
+<a href="http://digital-library.theiet.org/content/subjects" title="" 
+><span>Subjects</span></a></li>
+<li class=" button6"> 
+<a href="http://digital-library.theiet.org/content/collections" title="" 
+><span>Collections</span></a></li>
+<li class=" button7">
+<a href="http://digital-library.theiet.org/about" title="" 
+><span>About</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="bellowheadercontainer">
+<div id="sidebar_right" class="sidebar span-5 last">
+<div 
+id="loginDetails" class="box">
+<div class="boxstart">&nbsp;</div>
+<form action="http://logon.theiet.org/logout.cfm" id="signoutform">
+<fieldset>
+<input type="hidden" name="originURL" value="http://digital-library.theiet.org/session/sign-out" />
+</fieldset>
+</form>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+$(".signoutlink").click(function() {
+$("#signoutform").submit();
+return false;
+}); 
+});
+</script> 
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+id="loginBox" class="box">
+<div class="boxstart">&nbsp;</div>
+<ul>
+<li>
+<h4>
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="headingtext signinlink" >Login</a></h4>
+</li>
+<li>
+<div class="signIn">
+<form method="post" action="http://logon.theiet.org/login.cfm" id="signinform" autocomplete="off"> 
+<fieldset>
+<div class="signininput userinput"><div class="signinlabel signname">Username:</div><input type="text" autocomplete="off" name="username" id="signname" size="25"/></div>
+<div id="signpageusernameerror"></div>
+<div class="signininput userinput"><div class="signinlabel signpsswd">Password:</div><input type="password" autocomplete="off" name="password" id="signpsswd" size="25"/></div>
+<div id="signpagepassworderror"></div>
+<div id="blankerror"></div>
+<div class="signininput">
+<input type="image" class="styledbutton" src="http://digital-library.theiet.org/images/iet/login-button.gif" alt="Login"/>
+</div>
+<div class="signininput"><div class="signinlabel rememberme"><input type="checkbox" id="remember" name="bRemember" value="1"/> Remember me </div>
+<input type="hidden" name="signInTarget" id="signInTarget" value="/content/journals/10.1049/iet-map.2016.0901" />
+<input type="hidden" name="originURL" value="http://digital-library.theiet.org/session/iet?url=/content/journals/10.1049/iet-map.2016.0901" /> 
+<input type="hidden" name="logintype" value="acs" id="loginboxsignlogintype" />
+</div>
+</fieldset>
+</form>
+</div>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+if ($("#signInTarget").val() == "") {
+p = window.location.pathname;
+ctx = $("#hiddenContext").html();
+if (p.indexOf(ctx) == 0)
+p = p.substring(ctx.length);
+if (p.charAt(0) != '/')
+p = "/" + p;
+$("#signInTarget").val(p);
+}
+$("#signinbutton").click(function() {
+var returnval = true;
+var errorString = "Please complete both fields";
+if($("#signname").val()=="" || $("#signpsswd").val()=="")
+{
+$("#signpagepassworderror").html(errorString);
+$("#signpagepassworderror").show();
+returnval = false;
+}else{
+$("#signinform").submit();
+}
+return returnval;
+}); 
+}); 
+</script>
+</li>
+<li>
+<a href="https://www.theiet.org/help/passwordResetRequest.cfm?" title="" 
+target="_blank" class="rightarrow" >Forgotten password?</a></li>
+<div class="loginregisterlink">
+<a href="http://digital-library.theiet.org/session/ext/athens?url=/content/view.action?itemId=http%3A%2F%2Fiet.metastore.ingenta.com%2Fcontent%2Fjournals%2F10.1049%2Fiet-map.2016.0901&amp;view=&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FArticle&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FFastTrackArticle" >
+</a>
+</div>
+<div class="loginregisterlink">
+<a href="http://digital-library.theiet.org/session/ext/shib?url=/content/view.action?itemId=http%3A%2F%2Fiet.metastore.ingenta.com%2Fcontent%2Fjournals%2F10.1049%2Fiet-map.2016.0901&amp;view=&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FArticle&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FFastTrackArticle" >
+Shibboleth sign-in
+</a>
+</div>
+</ul> 
+<script type="text/javascript" charset="utf-8">
+$(".signinlink").click(function() {
+if ( $(this).hasClass("open") ) {
+$("#loginBox .signIn").slideUp();
+$(this).removeClass("open");
+} else {
+$("#loginBox .signIn").slideDown();
+$(this).addClass("open");
+$("#loginBox .signIn input:first").focus();
+}
+return false;
+});
+</script> 
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="box">
+<div class="boxstart">&nbsp;</div>
+<ul>
+<li><h4>
+<a href="http://www.theiet.org/memberapplication/www/index.cfm/site/digital-library?originURL=http://digital-library.theiet.org" title="" 
+class="headingtext" >Not registered yet?</a></h4></li>
+<li><span class="menutext">Register now to save searches and create alerts</span></li>
+</ul>
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="box">
+<div class="boxstart">&nbsp;</div>
+<h5 class="iconmenu">Share</h5>
+<div class="iconlist">
+<a href="http://digital-library.theiet.org/rss/content/journals/iet-map/latest?fmt=rss" title="" 
+class="viewrss" ><img src="http://digital-library.theiet.org/images/iet/icons_rss.gif" alt="rss" title="rss" /></a>
+<span class="sharelinks"><img src="http://digital-library.theiet.org/images/iet/icons_share.gif" alt="other social share options" title="other social share options" />
+<span class="moreshareoptions"></span>
+</span> 
+<a class="externallink" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fdigital-library.theiet.org%2fcontent%2fview.action%3fitemId%3dhttp%253A%252F%252Fiet.metastore.ingenta.com%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901%26view%3d%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FArticle%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FFastTrackArticle&t=Non-uniform+mesh+for+embroidered+microstrip+antennas"><img src="http://digital-library.theiet.org/images/iet/icons_facebook.gif" alt="share on facebook" title="Share on facebook" /></a> 
+<a class="externallink" href="http://twitter.com/home?status=http%3a%2f%2fdigital-library.theiet.org%2fcontent%2fview.action%3fitemId%3dhttp%253A%252F%252Fiet.metastore.ingenta.com%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901%26view%3d%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FArticle%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FFastTrackArticle"><img src="http://digital-library.theiet.org/images/iet/icons_twitter.gif" alt="share on twitter" title="Share on twitter" /></a>
+<a class="externallink" href="http://www.mendeley.com/import/?url=http%3a%2f%2fdigital-library.theiet.org%2fcontent%2fview.action%3fitemId%3dhttp%253A%252F%252Fiet.metastore.ingenta.com%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901%26amp%3bview%3d%26amp%3bitemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FArticle%26amp%3bitemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FFastTrackArticle"><img src="http://digital-library.theiet.org/images/iet/icons_mendeley.gif" alt="share on mendeley" title="Share on Mendeley" /></a>
+<a href="http://digital-library.theiet.org/email?currentTarget=%2fcontent%2fview.action%3fitemId%3dhttp%253A%252F%252Fiet.metastore.ingenta.com%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901%26view%3d%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FArticle%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FFastTrackArticle"><img src="http://digital-library.theiet.org/images/iet/icons_email.gif" alt="email this page" title="email this page" /></a>
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="printButton" ><img src="http://digital-library.theiet.org/images/iet/icons_print.gif" alt="print" title="Print this page" /></a>
+</div>
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="box">
+<div class="boxstart">&nbsp;</div>
+<h4>Tools</h4>
+<ul class="flat toolmenu">
+<li>
+<form action="http://digital-library.theiet.org/markedlist/update" method="get" class="favouritesForm"> 
+<div class="addtofavourites toollinks">
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="logontoviewfavourites" ><span>Add to favourites</span></a>
+<div class="hidden addToFavouritesnotloggeedin">
+<h5>
+<a href="http://digital-library.theiet.org/login?url=/content/view.action?itemId=http%3A%2F%2Fiet.metastore.ingenta.com%2Fcontent%2Fjournals%2F10.1049%2Fiet-map.2016.0901&amp;view=&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FArticle&amp;itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FFastTrackArticle" title="" 
+>Login to add to favourites</a></h5>
+<p>Save links to your favourite articles. </p>
+</div>
+<input type="hidden" name="MARKEDhttp://iet.metastore.ingenta.com/content/journals/10.1049/iet-map.2016.0901" value="on" />
+<input type="hidden" name="currentUrl" value="/content/view.action?itemId=http%3A%2F%2Fiet.metastore.ingenta.com%2Fcontent%2Fjournals%2F10.1049%2Fiet-map.2016.0901&view=&itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FArticle&itemType=http%3A%2F%2Fpub2web.metastore.ingenta.com%2Fns%2FFastTrackArticle"/> 
+</div>
+</form> 
+</li>
+<form id="alertForm" name="newissuealert" action="http://digital-library.theiet.org/alerts/setalert" method="get">
+<input type="hidden" name="alertScopeObjectId" value="http://iet.metastore.ingenta.com/content/journals/iet-map" />
+<input type="hidden" name="alertFrequency" value="HOUR" />
+<input type="hidden" name="alertDescription" value="IET Microwaves, Antennas &amp; Propagation" />
+<input type="hidden" name="alertContext" value="publication" />
+<input type="hidden" name="currentUrl" value="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901" />
+</form>
+<li>
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="alertLink" >Create email alert</a></li>
+<li class="sprite-permmision"><a href="https://www.copyright.com/ccc/openurl.do?sid=pd_PT1751-8733&amp;servicename=all&amp;issn=1751-8733&amp;WT.mc_id=pd_PT1751-8733" title="Get permissions" 
+target="_blank" class="popup" >Get permissions</a></li>
+<li class="menuexport">
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="toggle" >Export citations</a>
+<ul class="flat togglecontent hidden">
+<li>
+<a href="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901/cite/bibtex" title="" 
+class="externallink" >BibTEX</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901/cite/endnote" title="" 
+class="externallink" >Endnote</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901/cite/plaintext" title="" 
+class="externallink" >Plain text</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/journals/10.1049/iet-map.2016.0901/cite/refworks" title="" 
+class="externallink" >RefWorks</a></li>
+</ul> 
+</li> 
+</ul>
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="box">
+<div class="boxstart">&nbsp;</div>
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="box">
+<div class="boxstart">&nbsp;</div>
+<div class="icon-key">
+<h4>Key</h4>
+<ul class="flat last">
+<li class="access_icon_n_wrapper"><span class="access_icon_n keyicon">N</span>New content</li>
+<li class="access_icon_f_wrapper"><span class="access_icon_f keyicon"></span>Free content</li>
+<li class="access_icon_oa_wrapper"><span class="access_icon_oa keyicon"></span>Open access content</li>
+<li class="access_icon_s_wrapper"><span class="access_icon_s keyicon"></span>Subscribed content</li>
+<li class="access_icon_t_wrapper"><span class="access_icon_t keyicon"></span>Trial content</li>
+</ul>
+</div>
+<div class="boxend">&nbsp;</div>
+</div>
+<div 
+class="lastitem box" >
+<div class="boxstart">&nbsp;</div>
+<a href="http://digital-library.theiet.org/content/subscriptions.cfm?origin=button" title="" 
+><img src="http://digital-library.theiet.org/images/iet/subscribe-graphic.jpg" alt="subscribe to our publications" /></a>
+<div class="boxend">&nbsp;</div>
+</div>
+<div class="advertisingsidebarcontainer"> 
+<script type="text/javascript">
+<!-- 
+OAS_AD('Right1'); 
+//--> 
+</script>
+</div>
+</div>
+<div id="content" class="content">
+<div id="breadcrumb">
+<a href="http://digital-library.theiet.org/" title="" 
+>Home</a>
+<span class="separator">&gt;</span> 
+<a href="http://digital-library.theiet.org/content/journals" title="" 
+>Journals &amp; magazines</a>
+<span class="separator">&gt;</span> 
+<a href="http://digital-library.theiet.org/content/journals/iet-map" title="IET Microwaves, Antennas &amp; Propagation" 
+class="detailtitle2" >IET Microwaves, Antennas &amp; Propagation</a>
+<span class="separator">&gt;</span> 
+<a href="http://digital-library.theiet.org/content/journals/iet-map/e-first" title="" 
+>E-First</a>
+<span class="separator">&gt;</span> Article
+</div>
+<div class="main-tools-links">
+</div>
+<div 
+class="headlinebox box" >
+<div class="headlinelarge"><h2><img src="http://digital-library.theiet.org/images/iet/o_lock.gif" alt="access icon openaccess" class="access-icon" />
+<span class="keytitle">Non-uniform mesh for embroidered microstrip antennas</span></h2></div>
+<div class="articletopright contain">
+<ul class="flat bobby fulltext">
+<li class="pdf">
+<a href="IET-MAP.2016.0901.pdf%3FitemId=%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901&amp;mimeType=pdf&amp;isFastTrackArticle=true" title="" 
+target="_blank" class="pdf" rel="http://iet.metastore.ingenta.com/content/journals/10.1049/iet-map.2016.0901" >PDF</a>
+<div class="fulltextsize">
+4.984371185302734MB
+</div>
+</li>
+<li class="xml">
+<a href="http://digital-library.theiet.org/deliver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.xml?itemId=/content/journals/10.1049/iet-map.2016.0901&amp;mimeType=xml&amp;isFastTrackArticle=true" title="" 
+target="_blank" class="xml" rel="http://iet.metastore.ingenta.com/content/journals/10.1049/iet-map.2016.0901" >XML</a>
+<div class="fulltextsize">
+51.6728515625Kb
+</div>
+</li>
+<li class="html">
+<a href="iet-map.2016.0901.1.html" title="" 
+class="html" rel="http://iet.metastore.ingenta.com/content/journals/10.1049/iet-map.2016.0901" >HTML</a>
+<div class="fulltextsize">
+56.5576171875Kb
+</div>
+</li>
+</ul>
+</div>
+<div class="articlemetadata ">
+<ul class="flat meta-list meta-header">
+<li
+><span class="meta-key authors_label">
+Author(s):
+</span>
+<span class="meta-value authors">
+<a href="http://digital-library.theiet.org/search?value1=&amp;option1=all&amp;value2=Shiyu+Zhang&amp;option2=author" >Shiyu Zhang</a>
+<sup>1</sup>
+; 
+<a href="http://digital-library.theiet.org/search?value1=&amp;option1=all&amp;value2=William+Whittow&amp;option2=author" >William Whittow</a>
+<sup>1</sup>
+; 
+<a href="http://digital-library.theiet.org/search?value1=&amp;option1=all&amp;value2=Rob+Seager&amp;option2=author" >Rob Seager</a>
+<sup>1</sup>
+; 
+<a href="http://digital-library.theiet.org/search?value1=&amp;option1=all&amp;value2=Alford+Chauraya&amp;option2=author" >Alford Chauraya</a>
+<sup>1</sup>
+;
+<a href="http://digital-library.theiet.org/search?value1=&amp;option1=all&amp;value2=J(Yiannis)+C.+Vardaxoglou&amp;option2=author" >J(Yiannis) C. Vardaxoglou</a>
+<sup>1</sup>
+</span></li>
+<li>
+<ul class="affiliations">
+<a href="iet-map.2016.0901.1.html" title="" 
+class="toggle" >View affiliations</a>
+<li class="togglecontent hidden">
+<span class="meta-key affiliations_label">Affiliations: </span>
+<span class="meta-value affiliations"> 
+1:
+<xhtml:span xml:lang="en">Wolfson School Mechanical Electrical and Manufacturing Engineering, Loughborough University, Leicestershire, LE11 3TU, UK</xhtml:span> 
+<br/>
+</span>
+</li>
+</ul>
+</li>
+<li
+><span class="meta-key article_source_label">Source: </span>
+<span class="volumeissue">
+<a href="http://digital-library.theiet.org/content/journals/iet-map" title="" 
+>IET Microwaves, Antennas &amp; Propagation</a>,
+</span>
+<span class="meta-key pageskey">
+0<span class="meta-value pagesvalue"> pp.</span></span><br />
+<span class="doicontainer"><span class="meta-key doi_label">
+<abbr title="Digital Object Identifier">
+DOI:&#160;</abbr>
+</span>
+<span class="meta-value doi">
+<a href="http://dx.doi.org/10.1049/iet-map.2016.0901" title="" 
+class="externallink" >10.1049/iet-map.2016.0901</a>
+</span></span><span class="optionalcoma">,</span>
+<span class="issncontainer"><span class="meta-key issn_label">
+<abbr title="International Standard Serial Number">
+Print ISSN </abbr>
+</span>
+<span class="meta-value issn">1751-8725</span><span class="optionalcoma">,</span></span>
+<span class="eissncontainer"><span class="meta-key e_issn_label">
+<abbr title="Electronic International Standard Serial Number">
+Online ISSN </abbr>
+</span>
+<span class="meta-value e_issn">1751-8733</span></span>
+<span class="volumeissue pubdate">
+<span class="meta-key availableonline_label">Available online: </span>
+<span class="meta-value availableonline">21 February 2017 </span>
+</span></li>
+</ul>
+</div>
+</div>
+<div class="articlenav">
+<div class="">
+</div>
+<div class="copyright-meta-data">This is an open access article published by the IET under the Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)</div>
+<div class="date-meta-data">
+<span class="recievedDate">Received <abbr class="datelabel" title="dd/mm/yyyy" lang="en-gb">14/10/2016</abbr>,</span>
+<span class="acceptedDate">Accepted <abbr class="datelabel" title="dd/mm/yyyy" lang="en-gb">13/02/2017</abbr>,</span>
+<span class="revisedDate">Revised <abbr class="datelabel" title="dd/mm/yyyy" lang="en-gb">19/01/2017</abbr>,</span>
+<span class="publishedDate">Published <abbr class="datelabel" title="dd/mm/yyyy" lang="en-gb">20/02/2017</abbr></span>
+</div>
+</div>
+<div id="articleTabs">
+<ul class="tabset">
+<li class="active " id="abstract">
+<a href="iet-map.2016.0901.1.html#" title="Article" class=""><span>Article </span></a>
+</li>
+<li class=" " id="references">
+<a href="iet-map.2016.0901.1.html#" title="References" class="disabled"><span>References (0)</span></a>
+</li>
+<li class=" disabled" id="cite">
+<a href="iet-map.2016.0901.1.html#tab9" title="Cited By" class=" disabled"><span>Cited By (0)</span></a>
+</li>
+<li class=" " id="supplements">
+<a href="iet-map.2016.0901.1.html#" title="Supplementary material" class="disabled"><span>Supplementary material (0)</span></a>
+</li>
+<li class=" " id="aboutthisarticle">
+<a href="http://digital-library.theiet.org/content/ahaharticle/?fmt=ahah&amp;itemid=/content/journals/10.1049/iet-map.2016.0901" title="Keywords" class=""><span>Keywords </span></a>
+</li>
+<li class=" " id="relatedContent">
+<a href="iet-map.2016.0901.1.html#" title="Related Content" class="disabled"><span>Related Content </span></a>
+</li>
+</ul>
+</div>
+<div id="tabbedpages">
+<div class="abstract tabbedsection"> 
+<div id="singlePreview"></div>
+<div class="itemFullTextLoading">
+<img src="http://digital-library.theiet.org/images/jp/spinner.gif" alt="Loading full text..." />
+<p>Full text loading...</p>
+</div>
+<div id="itemFullTextId" class="itemFullTextHtml retrieveFullTextHtml hiddenjsdiv">/deliver/fulltext/10.1049/iet-map.2016.0901/IET-MAP.2016.0901.html?itemId=%2fcontent%2fjournals%2f10.1049%2fiet-map.2016.0901&mimeType=html&fmt=ahah</div>
+</div>
+<div class="aboutthisarticle hide tabbedsection">
+<p
+><span class="meta-key keywords_label">Other keywords:</span>
+<span class="meta-value keywords"> 
+<a href="http://digital-library.theiet.org/search?value1='efficiency+20+percent'&amp;option1=pub_keyword" title="" 
+>efficiency 20 percent</a>;
+<a href="http://digital-library.theiet.org/search?value1='conductor+area+coverage'&amp;option1=pub_keyword" title="" 
+>conductor area coverage</a>;
+<a href="http://digital-library.theiet.org/search?value1='wearable+microstrip+patch+antennas'&amp;option1=pub_keyword" title="" 
+>wearable microstrip patch antennas</a>;
+<a href="http://digital-library.theiet.org/search?value1='nonuniform+meshed+embroidered+structure'&amp;option1=pub_keyword" title="" 
+>nonuniform meshed embroidered structure</a>;
+<a href="http://digital-library.theiet.org/search?value1='fully+textile+embroidered+NMPA'&amp;option1=pub_keyword" title="" 
+>fully textile embroidered NMPA</a>;
+<a href="http://digital-library.theiet.org/search?value1='surface+current+distribution'&amp;option1=pub_keyword" title="" 
+>surface current distribution</a>;
+<a href="http://digital-library.theiet.org/search?value1='nonuniform+meshed+patch+antenna'&amp;option1=pub_keyword" title="" 
+>nonuniform meshed patch antenna</a>;
+<a href="http://digital-library.theiet.org/search?value1='embroidered+microstrip+antennas'&amp;option1=pub_keyword" title="" 
+>embroidered microstrip antennas</a>;
+<a href="http://digital-library.theiet.org/search?value1='embroidered+NMPA+reduced+manufacturing+cost'&amp;option1=pub_keyword" title="" 
+>embroidered NMPA reduced manufacturing cost</a>;
+<a href="http://digital-library.theiet.org/search?value1='conductive+materials'&amp;option1=pub_keyword" title="" 
+>conductive materials</a>
+</span></p>
+<p
+><span class="meta-key subjects_label">Subjects:
+</span>
+<span class="meta-value subjects">
+<a href="http://digital-library.theiet.org/content/subject/b5270b" title="" 
+>Single antennas</a>
+</span></p>
+</div>
+<div class="references hide tabbedsection">
+</div>
+<div class="cite citations hidden-js-div tabbedsection tab-pane hide tabbedsection">
+<div class="hiddenjsdiv" id="itemIdForCitations">http://iet.metastore.ingenta.com/content/journals/10.1049/iet-map.2016.0901</div>
+<img class="citingArticlesLoading" src="http://digital-library.theiet.org/images/jp/spinner.gif" alt="Loading" />
+<div id="citationContent"></div>
+</div>
+<div class="supplements hide tabbedsection">
+</div>
+<div class="relatedContent hide tabbedsection">
+<h3>Related content</h3>
+<div class="morelikethiscontainer">
+<div class="hiddenmorelikethisids hiddenjsdiv"></div>
+<div class="hiddenmorelikethiswebid hiddenjsdiv">content/journals/10.1049/iet-map.2016.0901</div>
+<div class="hiddenmorelikethisfields hiddenjsdiv">pub_keyword,iet_inspecKeyword,pub_concept</div>
+<div class="hiddenmorelikethisrestrictions hiddenjsdiv"></div>
+<div class="hiddenmorelikethisnumber hiddenjsdiv">6</div>
+<div class="hiddenmorelikethisnumbershown hiddenjsdiv">6</div>
+<img class="morelikethisloading" src="http://digital-library.theiet.org/images/jp/spinner.gif" alt="Loading" />
+<div class="morelikethiscontent"></div>
+</div>
+</div>
+</div> 
+</div>
+<div class="footercontainer"> 
+<div class="sharefooteroptionscontainer">
+<div class="shareoptions"></div>
+<div class="footerlinks">
+<span class="emaillink">
+<a href="http://digital-library.theiet.org/email?currentTarget=%2fcontent%2fview.action%3fitemId%3dhttp%253A%252F%252Fiet.metastore.ingenta.com%252Fcontent%252Fjournals%252F10.1049%252Fiet-map.2016.0901%26view%3d%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FArticle%26itemType%3dhttp%253A%252F%252Fpub2web.metastore.ingenta.com%252Fns%252FFastTrackArticle" title="" 
+>Email this page</a></span>
+<span class="printlink">
+<a href="iet-map.2016.0901.1.html#" title="" 
+class="printButton" >Print this page</a></span>
+</div>
+</div>
+<div id="footer" class="span-24 last">
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function($){
+if(! document.cookie.match(/IET_cookies_reminder/)) {
+var box=$("<div id='ietCookiePanel'><p>The IET sites use cookies to provide you with a range of functionality, as well as in collecting anonymous user data for analytics and advertising.</p> <p><a name=\"remindmelater\" rel=\"external\" href="http://digital-library.theiet.org/content/journals/10.1049/\&quot;#\"">&gt;&nbsp;Tell me more about IET cookies and how to control them</a></p><p><a href="http://digital-library.theiet.org/content/journals/10.1049/\&quot;#\"" name=\"cancel\">&gt;&nbsp;Don't show this message again</a></p></div>").
+css({display: 'none', color: '#fff', 'background-color': '#000',
+'text-align': 'left', 'opacity': '0.6','border-radius': '4px',
+position: 'fixed', 'font-size': '12px', 'line-height': '13px',
+'box-shadow': '12px 12px 12px #777', 'padding': '8px 8px 8px 8px',
+right: '8px', bottom: '8px',
+width: '340px', height: 'auto'})
+$('a',box).css({color: '#fff', 'margin': '0 0 0 0', 'font-weight': 'bold','text-decoration': 'none'});
+$('p',box).css({margin: '0 0 5px 0', color: '#fff',padding: '0 5px 0 5px','font-size': '12px','font-family': 'arial'});
+$('a[name=cancel]',box).click(function(e) {
+box.hide();
+// sets cookie
+//document.cookie='IET_cookies_reminder=true; expires='+new Date((new Date()).getTime()+604800000);
+//Sets expiration date for cookie
+var expireDate = new Date();
+expireDate.setTime(expireDate.getTime()+(365*24*60*60*1000));
+expireDate = expireDate.toGMTString();
+var cookieName = 'IET_cookies_reminder';
+var cookieValue = 'true';
+var myDate = new Date();
+myDate.setMonth(myDate.getMonth() + 12);
+//document.cookie = cookieName +"=" + cookieValue + ";domain=.theiet.org;expires=" + myDate;
+//document.cookie = cookieName +'=' + cookieValue + ';path=;domain=digital-library.theiet.org;expires=Thu, 2 Aug 2014 20:00:00 UTC';
+document.cookie = cookieName +'=' + cookieValue + '; expires='+ expireDate + '; path=/'
+return false;
+});
+$('a[name=remindmelater]',box).click(function(e) {
+box.hide();
+// sets cookie
+var cookieName = 'IET_cookies_reminder';
+var cookieValue = 'true';
+var myDate = new Date();
+myDate.setMonth(myDate.getMonth() + 12);
+//Sets expiration date for cookie
+var expireDate = new Date();
+expireDate.setTime(expireDate.getTime()+(365*24*60*60*1000));
+expireDate = expireDate.toGMTString();
+document.cookie = cookieName +'=' + cookieValue + '; expires='+ expireDate +'; path=/'
+window.location = 'http://www.theiet.org/help/cookies.cfm?origin=cookie-popout'
+return false;
+});
+$('body').append(box);
+$(box).show('slow');
+$('#ietCookiePanel').delay(10000).fadeOut(); // panel will fade out after X seconds
+}
+$('#show_release').click(function (e) {
+window.alert("IET app version \"0001\"");
+});
+});
+// ]]>
+</script>
+<div class="footersiteguide footernav">
+<div class="toplink">
+<a href="iet-map.2016.0901.1.html#header" title="" 
+>Back to top</a>
+</div>
+<ul>
+<li>
+<a href="http://digital-library.theiet.org/content/journals" title="" 
+>Journals &amp; magazines</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/conferences" title="" 
+>Conferences</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/books?order=date" title="" 
+>eBooks</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/reference/etr" title="" 
+>Reference</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/subjects" title="" 
+>Subjects</a></li>
+<li>
+<a href="http://digital-library.theiet.org/content/collections" title="" 
+>Collections</a></li>
+<li>
+<a href="http://digital-library.theiet.org/about" title="" 
+>About</a></li>
+<li class="last">
+<a href="http://digital-library.theiet.org/sitemap" title="" 
+>View sitemap</a></li>
+</ul>
+</div>
+<div class="absolutefootercontainer">
+<div class="footer-logo-container">
+<img src="http://digital-library.theiet.org/images/iet/iet-bottom-logo.gif" alt="IET" />
+</div>
+<ul class="rightmenu">
+<li class="menu"> 
+<ul class="absolutefootermenu">
+<li class="last">
+<a href="http://www.theiet.org/help/legalnotices.cfm" title="" 
+target="_blank" rel="external" >Legal notices.</a></li>
+<li>
+<a href="http://www.theiet.org/help/accessibility.cfm" title="" 
+target="_blank" rel="external" >Accessibility</a></li>
+<li>
+<a href="http://www.theiet.org/help/cookies.cfm" title="" 
+target="_blank" rel="external" >Cookies</a></li>
+<li>
+<a href="http://www.theiet.org/help/privacy.cfm" title="" 
+target="_blank" rel="external" >Privacy statement</a></li>
+<li>
+<a href="http://digital-library.theiet.org/copyrights-and-permissions" title="" 
+>Copyright &amp; permissions</a></li>
+<li>
+<a href="http://digital-library.theiet.org/help" title="" 
+>Help</a></li>
+</ul>
+</li>
+<li class="footernotice">All contents © The Institution of Engineering and Technology 2014</li>
+<li class="footernotice">The Institution of Engineering and Technology is registered as a Charity in England &amp; Wales (no 211014) and Scotland (no SC038698)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hiddenblurbsvalues">
+<div id="required_field">This is a required field</div>
+<div id="valid_email_address">Please enter a valid email address</div>
+</div>
+<form class="hidden" action="http://digital-library.theiet.org/carnet" method="post" id="hiddenCarnetForm"></form>
+<script type="text/javascript">
+var $SAT = $SAT || [];
+$SAT.push(['setContent','siteName','IET_Digital_Library']);
+</script>
+<script type="text/javascript">
+var $SAT = $SAT || [];
+(function() {
+var sa = document.createElement('script'); sa.type = 'text/javascript';
+sa.src = 'http' + ('https:' == document.location.protocol ? 's' : '') + '://scout.scoutanalytics.net/9nn8c/sat.ashx';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sa);
+})();
+</script>
+<noscript><img alt="dcsimg" id="dcsimg" width="1" height="1" src="http://stats.matraxis.net/dcs4jllm138nrlc5b1w748n3q_7l2k/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.55&amp;dcssip=digital-library.theiet.org/"/></noscript>
+</body>
+</html>
