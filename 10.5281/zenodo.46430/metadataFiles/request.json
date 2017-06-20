@@ -46,8 +46,6 @@
   },
   "objectFile": [{
     "fileName": "UK_coordinates_mod.txt",
-    "filehasMimeType": "text/plain",
-    "fileFormatType": "delimited text",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_coordinates_mod.txt",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -57,8 +55,6 @@
   },
   {
     "fileName": "UK_ncol_mod.txt",
-    "filehasMimeType": "text/plain",
-    "fileFormatType": "delimited text",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_ncol_mod.txt",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -68,8 +64,6 @@
   },
   {
     "fileName": "150691.full.pdf",
-    "filehasMimeType": "application/pdf",
-    "fileFormatType": "Portable Document Format",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/150691.full.pdf",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -79,8 +73,6 @@
   },
   {
     "fileName": "150691.reviewer-comments.pdf",
-    "filehasMimeType": "application/pdf",
-    "fileFormatType": "Portable Document Format",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/150691.reviewer-comments.pdf",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -90,8 +82,6 @@
   },
   {
     "fileName": "Appendix_Arcaute.pdf",
-    "filehasMimeType": "application/pdf",
-    "fileFormatType": "Portable Document Format",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/Appendix_Arcaute.pdf",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -101,8 +91,6 @@
   },
   {
     "fileName": "rsos.150691.json",
-    "filehasMimeType": "application/json",
-    "fileFormatType": "structured text",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/rsos.150691.json",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -112,8 +100,6 @@
   },
   {
     "fileName": "zenodo.46430.json",
-    "filehasMimeType": "application/json",
-    "fileFormatType": "structured text",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/zenodo.46430.json",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -123,8 +109,6 @@
   },
   {
     "fileName": "F1.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F1.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -134,8 +118,6 @@
   },
   {
     "fileName": "F2.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F2.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -145,8 +127,6 @@
   },
   {
     "fileName": "F3.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F3.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -156,8 +136,6 @@
   },
   {
     "fileName": "F4.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F4.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -167,8 +145,6 @@
   },
   {
     "fileName": "F5.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F5.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -178,8 +154,6 @@
   },  
   {
     "fileName": "F6.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F6.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -189,8 +163,6 @@
   },
   {
     "fileName": "F7.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F7.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
@@ -200,8 +172,6 @@
   },
   {
     "fileName": "F8.large.jpg",
-    "filehasMimeType": "image/jpeg",
-    "fileFormatType": "image",
     "fileStorageLocation": "s3://10.5281-zenodo.46430/F8.large.jpg",
     "fileStorageType": "s3",
     "fileChecksum": [{
