@@ -1,0 +1,3 @@
+wget --input-file http_sources.txt --page-requisites --convert-links --adjust-extension --no-directories --directory-prefix http_responses --server-response --append-output wget_log.txt | wget -V > wget_version.txt
+
+// see https://www.gnu.org/software/wget/manual/html_node/index.html
