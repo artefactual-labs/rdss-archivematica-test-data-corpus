@@ -1,0 +1,42 @@
+---
+id: https://doi.org/10.17630/9448553F-A806-464B-A41C-7E2F0C80522B
+type: works
+attributes:
+  doi: 10.17630/9448553F-A806-464B-A41C-7E2F0C80522B
+  url:
+  author:
+  - family: Metzger
+    given: Nikolaus
+  - family: Spesyvtsev
+    given: Roman
+  - family: Bruce
+    given: Graham David
+    orcid: http://orcid.org/0000-0003-3403-0614
+  - family: Miller
+    given: Bill
+  - family: Maker
+    given: Gareth T.
+  - family: Malcolm
+    given: Graeme
+  - family: Mazilu
+    given: Michael
+    orcid: http://orcid.org/0000-0002-4758-3528
+  - family: Dholakia
+    given: Kishan
+  title: Data Underpinning "Harnessing speckle for a sub-femtometer resolved broadband
+    wavemeter and laser stabilization"
+  container-title: University of St Andrews
+  description: 'Data from Metzger, et al., Nature Communications 8, 15610 (2017),
+    DOI: 10.1038/ncomms15610'
+  resource-type-subtype:
+  data-center-id: bl.standrew
+  member-id: bl
+  resource-type-id: dataset
+  version:
+  license: https://creativecommons.org/licenses/by/4.0/
+  schema-version: '3'
+  results: []
+  related-identifiers: []
+  published: '2017'
+  deposited: '2017-06-05T09:00:51Z'
+  updated: '2017-06-05T09:00:51Z'

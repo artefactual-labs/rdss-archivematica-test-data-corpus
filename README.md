@@ -22,7 +22,7 @@ datacite.title: RDSS-Archivematica Test Data corpus
 datacite.creator: Peter Van Garderen
 datacite.publisher: Artefactual Systems
 datacite.publicationYear: 2017
-datacite.resourceType: collection
+datacite.resourceTypeGeneral: collection
 @context: http://schema.datacite.org/meta/kernel-4.0/metadata.xsd
 ```
 _Note: Please don't cite this DOI. This is a valid, functioning, but temporary EZID DOI that expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This line will be erased when it does._
