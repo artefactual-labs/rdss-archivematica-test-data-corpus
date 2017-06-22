@@ -1,0 +1,48 @@
+---
+# Human-readable YAML template that converts to valid JSON to use as RDSS test data request.json
+messageHeader:
+  messageClass: "Command"
+  messageId: "{UUID}"
+  messageType: "MetadataCreate"
+messageBody:
+  objectUUID: "{UUID}"
+  objectTitle: ""
+  objectContributor:
+  - Person:
+      personUUID: "{UUID}"
+      personGivenName: ""
+    Role: "dataCreator"
+  - Person:
+      personUUID: "{UUID}"
+      personGivenName: ""
+    Role: "dataCreator"
+  objectDescription: ""
+  objectDate:
+  - dateType: "published"
+    dateValue: ""
+  objectResourceType: ""
+  objectIdentifier:
+  - identifierValue: ""
+    identifierType: "DOI"
+  objectPublisher:
+  - Role: "publisher"
+    Organisation:
+    - organisationName: ""
+      organisationAddress: ""
+  objectFile:
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: ""
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: ""
+    fileStorageLocation: "s3://"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: ""
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: ""
+    fileStorageLocation: "s3://"
+    fileStorageType: "S3"
