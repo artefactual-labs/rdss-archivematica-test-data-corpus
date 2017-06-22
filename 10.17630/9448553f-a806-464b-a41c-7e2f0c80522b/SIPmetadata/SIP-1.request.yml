@@ -1,7 +1,4 @@
 ---
-# <- yaml supports comments, json does not
-
-context: https://www.jisc.ac.uk/rdss/schema/research_object.json/#/definitions/object
 objectIdentifier:
   objectIdentifierType: DOI
   objectIdentifierValue: 10.17028/rd.lboro.4665448.v1
