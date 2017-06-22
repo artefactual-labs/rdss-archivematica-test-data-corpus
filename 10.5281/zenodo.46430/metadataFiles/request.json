@@ -1,5 +1,5 @@
 {
-  "messageHeaders": {
+  "messageHeader": {
     "messageId": "09e5dd7d-3435-6ff4-4000-3feb0f5b93c0",
     "messageType": "MetadataCreate",
     "messageClass": "Command"

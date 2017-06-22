@@ -1,6 +1,6 @@
 ---
 # Human-readable YAML template that converts to valid JSON to use as RDSS test data request.json
-messageHeaders:
+messageHeader:
   messageClass: "Command"
   messageId: "{UUID}"
   messageType: "MetadataCreate"
