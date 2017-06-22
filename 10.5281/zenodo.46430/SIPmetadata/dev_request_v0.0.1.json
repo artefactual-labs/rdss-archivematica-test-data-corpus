@@ -1,0 +1,80 @@
+{
+  "messageHeader": {
+    "messageId": "7008747f-c43d-abcf-080f-bee5e9b3c66f",
+    "messageType": "MetadataCreate",
+    "messageClass": "Command"
+  },
+  "messageBody": {
+    "datasetUuid": "7bd488c7-04f2-4b1e-aed3-f449abfbd90e",
+    "datasetTitle": "Data: Cities and Regions in Britain through hierarchical percolation",
+    "files": [
+      {
+        "id": "ff369625-9274-95e9-7a75-937c526af6b1",
+        "path": "s3://10.5281-zenodo.46430/150691.full.pdf",
+        "title": "150691.full.pdf"
+      },
+      {
+        "id": "647c0465-4626-72fb-166d-0d7a29bd628e",
+        "path": "s3://10.5281-zenodo.46430/150691.reviewer-comments.pdf",
+        "title": "150691.reviewer-comments.pdf"
+      },
+      {
+        "id": "e9f87620-6689-844d-bffd-9e932b21b49b",
+        "path": "s3://10.5281-zenodo.46430/Appendix_Arcaute.pdf",
+        "title": "Appendix_Arcaute.pdf"
+      },
+      {
+        "id": "7dd5c8ff-da8c-52cc-88b4-7fffb5744c6f",
+        "path": "s3://10.5281-zenodo.46430/F1.large.jpg",
+        "title": "F1.large.jpg"
+      },
+      {
+        "id": "eeafdf81-af02-9218-c28f-261e0abc32a4",
+        "path": "s3://10.5281-zenodo.46430/F2.large.jpg",
+        "title": "F2.large.jpg"
+      },
+      {
+        "id": "d544224b-fad9-02fa-1918-08dd8568aeb7",
+        "path": "s3://10.5281-zenodo.46430/F3.large.jpg",
+        "title": "F3.large.jpg"
+      },
+      {
+        "id": "165a5465-bdce-6bf2-619c-77b7d4478384",
+        "path": "s3://10.5281-zenodo.46430/F4.large.jpg",
+        "title": "F4.large.jpg"
+      },
+      {
+        "id": "8c9e3618-365b-ccd1-272f-07fb25b7b679",
+        "path": "s3://10.5281-zenodo.46430/F5.large.jpg"
+      },
+      {
+        "id": "77f8b633-7190-3da5-d053-9782661f0441",
+        "path": "s3://10.5281-zenodo.46430/F6.large.jpg"
+      },
+      {
+        "id": "fa4519ce-a463-1463-f772-7892b387de80",
+        "path": "s3://10.5281-zenodo.46430/F7.large.jpg"
+      },
+      {
+        "id": "be5dc911-a10f-d868-dd06-9534e4820a64",
+        "path": "s3://10.5281-zenodo.46430/F8.large.jpg"
+      },
+      {
+        "id": "1caeb15e-421b-0526-027e-8322c69fd5f1",
+        "path": "s3://10.5281-zenodo.46430/UK_coordinates_mod.txt"
+      },
+      {
+        "id": "1545a8c5-88fc-a40c-d71e-9420b8b03f2c",
+        "path": "s3://10.5281-zenodo.46430/UK_ncol_mod.txt"
+      },
+      {
+        "id": "0bcb0dc2-afee-9d46-05ad-221bc0daa5d0",
+        "path": "s3://10.5281-zenodo.46430/rsos.150691.json"
+      },
+      {
+        "id": "a96c8339-cc1e-bcb7-605e-30f4abeb31ab",
+        "path": "s3://10.5281-zenodo.46430/zenodo.46430.json"
+      }
+    ]
+  }
+}

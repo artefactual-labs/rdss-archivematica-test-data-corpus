@@ -1,0 +1,28 @@
+{
+  "messageHeader": {
+    "messageId": "09e5dd7d-3435-6ff4-4000-3feb0f5b93c0",
+    "messageType": "MetadataCreate",
+    "messageClass": "Command"
+  },
+  "messageBody": {
+    "objectUuid": "8cd77680-dc84-ab05-0470-d718bbf7a505",
+    "objectTitle": "Data: Cities and Regions in Britain through hierarchical percolation",
+    "objectFile": [
+      {
+        "fileLabel": "UK_coordinates_mod.txt",
+        "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_coordinates_mod.txt",
+        "fileStorageType": "s3",
+        "fileChecksum": [{
+          "checksumType": "md5",
+          "checksumValue": "77162c173782bcc6d256559512297ff0"}]
+      },
+      {
+        "fileLabel": "UK_ncol_mod.txt",
+        "fileStorageLocation": "s3://10.5281-zenodo.46430/UK_ncol_mod.txt",
+        "fileStorageType": "s3",
+        "fileChecksum": [{
+          "checksumType": "md5",
+          "checksumValue": "bbbe3c81d3d64848afd875922735ab19"}]
+      }]
+    }
+}
