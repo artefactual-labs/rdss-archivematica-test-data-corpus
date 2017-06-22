@@ -1,5 +1,5 @@
 {
-  "messageHeaders": {
+  "messageHeader": {
     "messageId": "7008747f-c43d-abcf-080f-bee5e9b3c66f",
     "messageType": "MetadataCreate",
     "messageClass": "Command"
@@ -12,7 +12,6 @@
         "id": "ff369625-9274-95e9-7a75-937c526af6b1",
         "path": "s3://10.5281-zenodo.46430/150691.full.pdf",
         "title": "150691.full.pdf"
-        
       },
       {
         "id": "647c0465-4626-72fb-166d-0d7a29bd628e",
