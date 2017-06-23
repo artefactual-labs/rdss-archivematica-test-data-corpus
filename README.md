@@ -13,7 +13,7 @@ The `/metadataFiles/` folder contains information about the http requests used t
 The folders ending in `-SIP1`, `-SIP2`, etc. are the sample files and metadata that are prepared for use in RDSS test cases (where SIP = Submission Information Package). The first four characters of these folders are the last four characters of the corresponding dataset DOI.
 
 ## Attribution
-This collective work and additional files created in the course of acquiring and curating this collection are freely available under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
+This collective work and additional files created in the course of acquiring and curating this collection are freely re-usable under a [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
 
 ```
 datacite.identifier: 10.5072/FK2JM29J5Z
