@@ -19,6 +19,9 @@ Only files with open access rights that are posted on public websites are collec
 |--- [last_4_DOI_characters]-SIP1-request.json
 |--- [last_4_DOI_characters]-SIP2-request.json
 |-- sourceFiles
+|---...
+|---...
+|---...
 ```
 The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets.
 
@@ -26,6 +29,10 @@ Within each test data directory, the `/crawerlInfo/` sub-directory contains info
 
 The `/SIPmetadata/` sub-directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files and the `request.json` format that is specified by the RDSS Messaging API. *Note: SIP = Submission Information Package in the [ISO-14271 OAIS context](https://en.wikipedia.org/wiki/Open_Archival_Information_System)*.
 
+### Helpers
+A human-readable YAML template and yaml-2-json Python scrip are provided as helpers to convert harvested metadata to the request.json schema that is used to send message payloads (i.e. metadata) between the JICS RDSS components.
+
+### Crosswalk
 A [metadata crosswalk](crosswalk-datacite-rdss-am.md) is provided to map the movement of metadata values from DataCite properties to the JISC-RDSS Canonical Data Model (CDM) to the Dublin Core properties stored as PREMIS Intellectual Entities in Archivematica's Archival Information Packages (AIP).
 
 ## Attribution
