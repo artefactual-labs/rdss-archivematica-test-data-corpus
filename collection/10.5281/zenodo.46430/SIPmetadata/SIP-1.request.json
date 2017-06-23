@@ -1,0 +1,93 @@
+{
+  "messageHeader": {
+    "messageClass": "Command",
+    "messageId": "4afcf928-9731-4068-b6f9-94625b1974cd",
+    "messageType": "MetadataCreate"
+  },
+  "messageBody": {
+    "objectTitle": "Data: Cities and Regions in Britain through hierarchical percolation",
+    "objectIdentifier": [
+      {
+        "identifierValue": "10.5281/zenodo.46430",
+        "identifierType": "DOI"
+      }
+    ],
+    "objectUUID": "d1dc2c18-aa1a-4e28-abbb-b27349edbe31",
+    "objectResourceType": "dataset",
+    "objectDate": [
+      {
+        "dateType": "published",
+        "dateValue": "2016"
+      }
+    ],
+    "objectContributor": [
+      {
+        "Person": {
+          "personUUID": "f61cad2b-85c9-4981-a36f-79c1237d20ff",
+          "personGivenName": "Arcaute, Elsa"
+        },
+        "Role": "dataCreator"
+      },
+      {
+        "Person": {
+          "personUUID": "e4955742-52ba-4c61-b763-c28dda350316",
+          "personGivenName": "Molinero, Carlos"
+        },
+        "Role": "dataCreator"
+      }
+    ],
+    "objectDescription": "This research can be reproduced with the U.K. Ordnance Survey datasets and the supplementary information in the Appendix_Arcaute.pdf document.\n1) UK_coordinates_mod.txt\nThis file contains a list of the all the intersection points, with columns for id of point, its coordinate x and its coordinate y.\n2) UK_ncol_mod.txt\nThis file contains the information about the whole network. It is in the form of id of node 1, id of node 2 and the weight is given by the real length of the road connecting these two points.\n3) Appendix_Arcaute.pdf\nThis file contains information about the algorithms and methods that the researchers used to analyze the research data.\n",
+    "objectPublisher": [
+      {
+        "Role": "publisher",
+        "Organisation": [
+          {
+            "organisationName": "Royal Society Open Science",
+            "organisationAddress": "https://royalsociety.org/about-us/contact-us/"
+          }
+        ]
+      }
+    ],
+    "objectFile": [
+      {
+        "fileUUID": "0463fb98-94e5-4281-b96f-7dd27653ef5a",
+        "fileIdentifier": "",
+        "fileName": "UK_ncol_mod.txt",
+        "fileChecksum": [
+          {
+            "checksumType": "md5",
+            "checksumValue": "bbbe3c81d3d64848afd875922735ab19"
+          }
+        ],
+        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_ncol_mod.txt",
+        "fileStorageType": "S3"
+      },
+      {
+        "fileUUID": "5847a137-de4d-4b7a-af20-b16d218e5930",
+        "fileIdentifier": "",
+        "fileName": "UK_coordinates_mod.txt",
+        "fileChecksum": [
+          {
+            "checksumType": "md5",
+            "checksumValue": "77162c173782bcc6d256559512297ff0"
+          }
+        ],
+        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt",
+        "fileStorageType": "S3"
+      },
+      {
+        "fileUUID": "b48ae2fe-83a2-4913-a9e3-13530bd6f6c9",
+        "fileIdentifier": "",
+        "fileName": "Appendix_Arcaute.pdf",
+        "fileChecksum": [
+          {
+            "checksumType": "md5",
+            "checksumValue": "77f64226a291065d25a749994f6d522d"
+          }
+        ],
+        "fileStorageLocation": "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf",
+        "fileStorageType": "S3"
+      }
+    ]
+  }
+}
