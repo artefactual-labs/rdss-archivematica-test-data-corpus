@@ -6,10 +6,10 @@
 | datacite:identifier | jisc:objectIdentifierValue  | archivematica:dc.identifier |
 | datacite:identifierType   | jisc:objectIdentifierType | *defaults to DOI* |
 | datacite:creator | *inherits from subproperty*  |  *inherits from subproperty* |
-| datacite:creatorName   | jisc:objectContributor.PersonRole.Person.personGivenName <br />(WHERE ObjectContributor.PersonRole.person = "creator") | archivematica:dc.contributor |
+| datacite:creatorName   | jisc:objectContributor.PersonRole.Person.personGivenName <br />(*where ObjectContributor.PersonRole.person = "creator"*) | archivematica:dc.contributor |
 | datacite:title | objectTitle | archivematica:dc.title |
-| datacite:publisher | jisc:objectContributor.PersonRole.Person.personGivenName <br />(WHERE ObjectContributor.PersonRole.person = "publisher") | archivematica:dc.publisher |
-| datacite:publicationYear   | ObjectDate.dateValue <br />(where dateType ="published") | archivematica:dcterms.issued |
+| datacite:publisher | jisc:objectContributor.PersonRole.Person.personGivenName <br />(*where ObjectContributor.PersonRole.person = "publisher"*) | archivematica:dc.publisher |
+| datacite:publicationYear   | ObjectDate.dateValue <br />(*where dateType ="published"*) | archivematica:dcterms.issued |
 | datacite:resourceTypeGeneral | jisc:objectResourceType | archivematica:dc.type |
 | datacite:resourceType | *see JISC Resource Type profiles* | *as per JISC Resource Type profiles* |
 
