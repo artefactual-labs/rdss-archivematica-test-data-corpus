@@ -37,7 +37,7 @@ The following criteria were used to evaluate the dataset files added to this col
 + Preference for datasets that come from UK HEI research institutions and/or UK funded research.  
 + Preference for datasets that have been exported from RDSS-HEI repository applications and/or with metadata from other integrated systems. **_NOTE_**: As of 18-06-2017 these are not yet known to the *rdss-archivematica team* but likely two or more of: Figshare, Pure, Eprints, Dspace (or localized forks/branches, eg Vivo), Fedora/Hydra (or localized forks/branches, eg Willow), as well as RDM services such as DataCite and ORCID.
 
-3. **RDSS Alpha MVP performance tests**: bitstreams =< 5 GB, files < 1000, file =< 1MB // **_NOTE_**: Github 1GB limit for free public repos. Will need to resolve out links for 20MB?+ files to other storage domain. See https://git-lfs.github.com/
+3. **[RDSS MVP/Alpha](about-rdss-archivematica-MVP.md) performance tests**: bitstreams =< 5 GB, files < 1000, file =< 1MB // **_NOTE_**: Github 1GB limit for free public repos. Will need to resolve out links for 20MB?+ files to other storage domain. See https://git-lfs.github.com/
 
 4. **RDSS Beta performance tests**: bitstreams =< 5 TB, files < 1000000, file =< 1TB
 
