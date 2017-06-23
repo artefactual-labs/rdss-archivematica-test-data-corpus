@@ -1,13 +1,13 @@
 
-#About the RDSS Archivematica Minimum Viable Product (MVP)
+# About the RDSS Archivematica Minimum Viable Product (MVP)
 The RDSS Archivematica MVP release included the objective to map the mandatory Datacite 4.0 properties to the latest version of the JISC Canonical Data Model. The CDM specifies the schema to use for RDSS Messaging API message payloads. It is the RDSS Rosetta Stone through which the containerized vendor products will post and subscribe information related to the provenance, physical control, and intellectual control of the research data that is managed and preserved by JISC's Research Data Shared Service.
 
 Many (if not the majority) of UK HEI-based researchers use a DOI from DataCite when they publish their datasets. Therefore, the mandatory Datacite 4.0 properties are a pragmatic baseline to use for a "minimally viable" research data preservation service.
 
-##RDSS Canonical Data Model crosswalk
+## RDSS Canonical Data Model crosswalk
 [This table] (crosswalk-datacite-jisc_rdss-archivematica_dc.md) contains the crosswalk mapping that was used to determine which CDM properties applied to this task.
 
-##Demonstration of core RDSS-Archivematica functionality
+## Demonstration of core RDSS-Archivematica functionality
 The RDSS-Archivematica MVP product demonstrates:
 
 1. the flow of metadata external to the preservation system (e.g. from DataCite API, from a Figshare repository, from an Islandora repository, from ORCID, from an internal HEI Pure repository, from a customized Dspace repository, from an ePrints repository, etc.)
