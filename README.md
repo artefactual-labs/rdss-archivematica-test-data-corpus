@@ -11,7 +11,7 @@ New accruals to the collection are guided by the corpus [appraisal criteria](cro
 ## Arrangement
 The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets. An [Index](INDEX.md) is provided as a finding aid to this collection.
 
-Within each test data directory, the `/crawlInfo/` folder contains information about the web crawler settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` directory.
+Within each test data directory, the `/crawerlInfo/` folder contains information about the web crawler (WGET) settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` directory.
 
 The `/SIPmetadata/` directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files (where SIP = Submission Information Package).
 
@@ -30,4 +30,4 @@ datacite.publicationYear: 2017
 datacite.resourceTypeGeneral: collection
 @context: http://schema.datacite.org/meta/kernel-4.0/metadata.xsd
 ```
-( * ) _Please don't cite this DOI. This is a valid and functioning DOI (see [https://doi.org/10.5072/FK2JM29J5Z](https://doi.org/10.5072/FK2JM29J5Z)). However it is a temporary EZID DOI which expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This line will be erased when it does._
+( * ) _Please don't cite this particular DOI. This is a currently valid and functioning DOI (see [https://doi.org/10.5072/FK2JM29J5Z](https://doi.org/10.5072/FK2JM29J5Z)). However it is a temporary EZID DOI which expires 02-07-2017. It is given here as an attribution illustration. It will be replaced with a permanent DOI. This note will be erased when it does._
