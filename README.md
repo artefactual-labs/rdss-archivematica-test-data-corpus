@@ -11,19 +11,23 @@ New dataset additions to the collection are guided by the corpus [appraisal crit
 Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
 ## Arrangement
-```/collection/
-INDEX.md
-|- DOI
-|-- crawlerInfo
-|--- wget-log.txt
-|-- SIPmetadata
-|--- [last_4_DOI_characters]-SIP1-request.json
-|--- [last_4_DOI_characters]-SIP2-request.json
-|-- sourceFiles
 ```
-The test datasets are organized under the `/collection/` directory using their [Digital Object Identifier](http://www.doi.org/). DOIs have broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets. An [index](INDEX.md) is provided as a collection finding aid.
+INDEX.md
+|-collection
+|-- DOI
+|--- crawlerInfo
+|---- wget-log.txt
+|--- SIPmetadata
+|---- [last_4_DOI_characters]-SIP1-request.json
+|---- [last_4_DOI_characters]-SIP2-request.json
+|--- sourceFiles
+```
 
-Within each test data directory, the `/crawerlInfo/` sub-directory contains information about the web crawler (WGET) settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` sub-directory.
+The test datasets are organized under the `/collection/` directory using their [Digital Object Identifier](http://www.doi.org/). DOIs have broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets.
+
+An [index](INDEX.md) is provided as a collection finding aid.
+
+Under each `/DOI/` test data directory, the `/crawerlInfo/` sub-directory contains information about the web crawler (WGET) settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` sub-directory.
 
 The `/SIPmetadata/` sub-directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files and the `request.json` format that is specified by the RDSS Messaging API. *Note: SIP = Submission Information Package in the [ISO-14271 OAIS context](https://en.wikipedia.org/wiki/Open_Archival_Information_System)*.
 
