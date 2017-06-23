@@ -4,7 +4,7 @@
 This [Index](INDEX.md) provides an overview of the collection contents with links to dataset source files and their SIP metadata.
 
 ## About
-This repository contains a collection of research data files that are used as a test data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service](https://www.jisc.ac.uk/rd/projects/research-data-shared-service) (RDSS), beginning with an initial [Minimum Viable Product](about-rdss-mvp.md) release.
+This repository contains a collection of research data files that are used as a test data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service](https://www.jisc.ac.uk/rd/projects/research-data-shared-service) (RDSS), beginning with an initial [Minimum Viable Product](about-rdss-am-MVP.md) release.
 
 New dataset additions to the collection are guided by the corpus [appraisal criteria](crosswalk-datacite-rdss-am.md).
 
