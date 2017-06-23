@@ -27,7 +27,7 @@ Within each test data directory, the `/crawerlInfo/` sub-directory contains info
 The `/SIPmetadata/` sub-directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files and the `request.json` format that is specified by the RDSS Messaging API. *Note: SIP = Submission Information Package in the [ISO-14271 OAIS context](https://en.wikipedia.org/wiki/Open_Archival_Information_System)*.
 
 ### Helpers
-A human-readable YAML template and yaml-2-json Python scrip are provided as helpers to organize and convert harvested metadata to the request.json schema that is used to send message payloads (i.e. metadata) between the JICS RDSS components, including Archivematica.
+A human-readable YAML template and yaml-2-json Python scripts are provided as [helpers](/helpers/) to organize and convert harvested metadata to the request.json schema which is used to send message payloads (i.e. metadata) between the JICS RDSS components, including Archivematica.
 
 ### Crosswalk
 A [metadata crosswalk](crosswalk-datacite-rdss-am.md) is provided to map the movement of metadata values from DataCite properties to the JISC-RDSS Canonical Data Model (CDM) to the Dublin Core properties stored as PREMIS Intellectual Entities in Archivematica's Archival Information Packages (AIP).
