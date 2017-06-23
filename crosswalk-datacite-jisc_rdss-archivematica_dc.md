@@ -3,14 +3,14 @@
 | ------------- | ------------- | ------------- |
 | `datacite:identifier` | `jisc-rdss:objectIdentifierValue`  | `archivematica:dc.identifier` |
 | `datacite:identifierType`   | `jisc-rdss:objectIdentifierType` | *defaults to DOI* |
-| datacite:creator | *inherits from subproperty*  |  *inherits from subproperty* |
+| `datacite:creator` | *inherits from subproperty*  |  *inherits from subproperty* |
 | `datacite:creatorName`   | `jisc-rdss:objectContributor.PersonRole.Person.personGivenName` (WHERE ObjectContributor.PersonRole.person = "creator") | `archivematica:dc.contributor` |
 | `datacite:title` | `objectTitle` | `archivematica:dc.title` |
 | `datacite:publisher` | `jisc-rdss:objectContributor.PersonRole.Person.personGivenName` (WHERE ObjectContributor.PersonRole.person = "publisher") | `archivematica:dc.publisher` |
 | `datacite:publicationYear`   | `ObjectDate.dateValue` (where dateType ="published") | `archivematica:dcterms.issued` |
 | `datacite:resourceTypeGeneral` | `jisc-rdss:objectResourceType` | `archivematica:dc.type` |
-| datacite:resourceType | *see JISC Resource Type profiles* | *as per JISC Resource Type profiles* |
+| `datacite:resourceType` | *see JISC Resource Type profiles* | *as per JISC Resource Type profiles* |
 
-**NOTE**: *Archivematica Dublin Core properties are mapped to* `premis:intellectualEntities` *in the Archivematica AIP.*
+**NOTE**: *Archivematica Dublin Core properties are mapped to* `premis:intellectualEntity` *in the Archivematica AIP.*
 
 **NOTE**: *original metadata serializations and formats are stored with normalised metadata in Archivematica's archival information packages (AIPs).*
