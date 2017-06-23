@@ -8,7 +8,7 @@ This repository contains a collection of research data files that are used as a 
 
 New dataset additions to the collection are guided by the corpus [appraisal criteria](crosswalk-datacite-rdss-am.md).
 
-Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
+Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to the rightsholder information, and it will be deleted.
 
 ## Arrangement
 ```
