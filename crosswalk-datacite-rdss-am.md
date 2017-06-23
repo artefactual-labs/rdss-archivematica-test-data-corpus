@@ -8,7 +8,7 @@
 | datacite:creator | *inherits from subproperty*  |  *inherits from subproperty* |
 | datacite:creatorName   | jisc:objectContributor.PersonRole.Person.personGivenName <br />(*where ObjectContributor.PersonRole.person = "creator"*) | archivematica:dc.contributor |
 | datacite:title | objectTitle | archivematica:dc.title |
-| datacite:publisher | jisc:objectContributor.PersonRole.Person.personGivenName <br />(*where ObjectPublisher.OrganisationRole.organisation = "publisher"*) | archivematica:dc.publisher |
+| datacite:publisher | jisc:objectPublisher.OrganisationRole.Organisation.organisationName <br />(*where ObjectPublisher.OrganisationRole.organisation = "publisher"*) | archivematica:dc.publisher |
 | datacite:publicationYear   | ObjectDate.dateValue <br />(*where dateType ="published"*) | archivematica:dcterms.issued |
 | datacite:resourceTypeGeneral | jisc:objectResourceType | archivematica:dc.type |
 | datacite:resourceType | *see JISC Resource Type profiles* | *as per JISC Resource Type profiles* |
