@@ -5,7 +5,7 @@ The RDSS Archivematica MVP release included the objective to map the mandatory D
 Many (if not the majority) of UK HEI-based researchers use a DOI from DataCite when they publish their datasets. Therefore, the mandatory Datacite 4.0 properties are a pragmatic baseline to use for a "minimally viable" research data preservation service.
 
 ## RDSS Canonical Data Model crosswalk
-[This table](crosswalk-datacite-jisc_rdss-archivematica_dc.md) contains the crosswalk mapping that was used to determine which CDM properties applied to this task.
+[This table](crosswalk-datacite-rdss-am.md) contains the crosswalk mapping that was used to determine which CDM properties applied to this task.
 
 ## Demonstration of core RDSS-Archivematica functionality
 Using the datasets from this test data corpus, the RDSS-Archivematica MVP product demonstrates:
