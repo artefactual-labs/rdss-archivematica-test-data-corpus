@@ -5,16 +5,18 @@
 ## About
 This repository contains a collection of research data files that are used as a corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service ](https://www.jisc.ac.uk/rd/projects/research-data-shared-service), beginning with an initial [Minimum Viable Product](about-rdss-archivematica-MVP.md) release.
 
-Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
+The corpus [appraisal criteria](crosswalk-datacite-jisc_rdss-archivematica_dc.md) guide new accruals to the collection. Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
 ## Arrangement
 The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets.
 
-The `crawlInfo` folder contains information about the web crawler settings, URLs, http requests, and responses that were used to collect the `/sourceFiles/`.
-
-The `SIPmetadata` directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files (where SIP = Submission Information Package).
-
 A [Corpus Index](index-rdss-archivematica-test-data-corpus.md) is provided as a finding aid to this collection.
+
+Within each test data directory, the `/crawlInfo/` folder contains information about the web crawler settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` directory.
+
+The `/SIPmetadata/` directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files (where SIP = Submission Information Package).
+
+A [metadata crosswalk](crosswalk-datacite-jisc_rdss-archivematica_dc.md) is provided to map the movement of metadata values from DataCite properties to the JISC-RDSS Canonical Data Model (CDM) to the Dublin Core properties stored as PREMIS Intellectual Entities in Archivematica's Archival Information Packages (AIP).
 
 ## Attribution
 This collective work and additional files created in the course of acquiring and curating this collection are freely re-usable under a [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
