@@ -4,16 +4,28 @@
 This [Index](INDEX.md) provides an overview of the datasets that are currently included in this test data corpus.
 
 ## About
-This repository contains a collection of research data files that are used as a test data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service](https://www.jisc.ac.uk/rd/projects/research-data-shared-service), beginning with an initial [Minimum Viable Product](about-rdss-mvp.md) release.
+This repository contains a collection of research data files that are used as a test data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service](https://www.jisc.ac.uk/rd/projects/research-data-shared-service) (RDSS), beginning with an initial [Minimum Viable Product](about-rdss-mvp.md) release.
 
-New accruals to the collection are guided by the corpus [appraisal criteria](crosswalk-datacite-rdss-am.md). Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
+New dataset additions to the collection are guided by the corpus [appraisal criteria](crosswalk-datacite-rdss-am.md).
+
+Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
 ## Arrangement
-The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets. An [Index](INDEX.md) is provided as a finding aid to this collection.
 
-Within each test data directory, the `/crawerlInfo/` folder contains information about the web crawler (WGET) settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` directory.
+```[Index](INDEX.md)
+|- DOI
+  |- crawlerInfo
+    |- wget-log.txt
+  |- SIPmetadata
+    |- [last_4_DOI_characters]-SIP1-request.json
+    |- [last_4_DOI_characters]-SIP2-request.json
+  |- sourceFiles
+```
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets.
 
-The `/SIPmetadata/` directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files (where SIP = Submission Information Package).
+Within each test data directory, the `/crawerlInfo/` sub-directory contains information about the web crawler (WGET) settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` sub-directory.
+
+The `/SIPmetadata/` sub-directory contains re-formatted and newly generated metadata that is used to test a variety of preservation system submission scenarios using the research data source files (where SIP = Submission Information Package).
 
 A [metadata crosswalk](crosswalk-datacite-rdss-am.md) is provided to map the movement of metadata values from DataCite properties to the JISC-RDSS Canonical Data Model (CDM) to the Dublin Core properties stored as PREMIS Intellectual Entities in Archivematica's Archival Information Packages (AIP).
 
