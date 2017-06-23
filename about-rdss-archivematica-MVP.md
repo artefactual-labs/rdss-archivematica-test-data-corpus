@@ -8,7 +8,7 @@ Many (if not the majority) of UK HEI-based researchers use a DOI from DataCite w
 [This table](crosswalk-datacite-jisc_rdss-archivematica_dc.md) contains the crosswalk mapping that was used to determine which CDM properties applied to this task.
 
 ## Demonstration of core RDSS-Archivematica functionality
-The RDSS-Archivematica MVP product demonstrates:
+Using the datasets from this test data corpus, the RDSS-Archivematica MVP product demonstrates:
 
 1. the flow of metadata external to the preservation system (e.g. from DataCite API, from a Figshare repository, from an Islandora repository, from ORCID, from an internal HEI Pure repository, from a customized Dspace repository, from an ePrints repository, etc.)
 2. the flow of research dataset transfers from researchers to the RDSS AWS Cloud
