@@ -6,12 +6,10 @@ This [Index](INDEX.md) provides an overview of the datasets that are currently i
 ## About
 This repository contains a collection of research data files that are used as a test data corpus for analyzing and testing the integration of [Archivematica](https://archivematica.org) into JISC's [Research Data Shared Service](https://www.jisc.ac.uk/rd/projects/research-data-shared-service), beginning with an initial [Minimum Viable Product](about-rdss-mvp.md) release.
 
-The corpus [appraisal criteria](crosswalk-datacite-rdss-am.md) guide new accruals to the collection. Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
+New accruals to the collection are guided by the corpus [appraisal criteria](crosswalk-datacite-rdss-am.md). Only files with open access rights that are posted on public websites are collected. However, errors do occur. If you find a file in this collection that is in violation of a copyright, please [file an issue](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus/issues), include a link to right holder's information, and it will be deleted.
 
 ## Arrangement
-The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets.
-
-A [Corpus Index](INDEX.md) is provided as a finding aid to this collection.
+The test datasets are organized under their [Digital Object Identifier](http://www.doi.org/) which has broad adoption within the academic, public, and private research domains to identify and locate canonical versions of research articles and their related datasets. An [Index](INDEX.md) is provided as a finding aid to this collection.
 
 Within each test data directory, the `/crawlInfo/` folder contains information about the web crawler settings, URLs, http requests, and http responses that were used to collect the digital resources stored in the `/sourceFiles/` directory.
 
