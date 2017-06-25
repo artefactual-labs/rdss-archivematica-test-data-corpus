@@ -1,0 +1,67 @@
+{
+  "messageHeader": {
+    "messageClass": "Command",
+    "messageId": "4afcf928-9731-4068-b6f9-94625b1974cd",
+    "messageType": "MetadataCreate"
+  },
+  "messageBody": {
+    "objectTitle": "Data: Cities and Regions in Britain through hierarchical percolation",
+    "objectIdentifier": [
+      {
+        "identifierValue": "10.5281/zenodo.46430",
+        "identifierType": "DOI"
+      }
+    ],
+    "objectUUID": "d1dc2c18-aa1a-4e28-abbb-b27349edbe31",
+    "objectResourceType": "dataset",
+    "objectDate": [
+      {
+        "dateType": "published",
+        "dateValue": "2016"
+      }
+    ],
+    "objectContributor": [
+      {
+        "Person": {
+          "personUUID": "f61cad2b-85c9-4981-a36f-79c1237d20ff",
+          "personGivenName": "Arcaute, Elsa"
+        },
+        "Role": "dataCreator"
+      },
+      {
+        "Person": {
+          "personUUID": "e4955742-52ba-4c61-b763-c28dda350316",
+          "personGivenName": "Molinero, Carlos"
+        },
+        "Role": "dataCreator"
+      }
+    ],
+    "objectDescription": "This file contains a list of the all the intersection points, with columns for id of point, its coordinate x and its coordinate y.\n",
+    "objectPublisher": [
+      {
+        "Role": "publisher",
+        "Organisation": [
+          {
+            "organisationName": "Royal Society Open Science",
+            "organisationAddress": "https://royalsociety.org/about-us/contact-us/"
+          }
+        ]
+      }
+    ],
+    "objectFile": [
+      {
+        "fileUUID": "5847a137-de4d-4b7a-af20-b16d218e5930",
+        "fileIdentifier": "",
+        "fileName": "UK_coordinates_mod.txt",
+        "fileChecksum": [
+          {
+            "checksumType": "md5",
+            "checksumValue": "77162c173782bcc6d256559512297ff0"
+          }
+        ],
+        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt",
+        "fileStorageType": "S3"
+      }
+    ]
+  }
+}
