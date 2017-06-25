@@ -41,7 +41,7 @@ messageBody:
   objectPublisher:
   - Role: "publisher"
     Organisation:
-    - organisationName: "Royal Society Open Science"
+      organisationName: "Royal Society Open Science"
       organisationAddress: "https://royalsociety.org/about-us/contact-us/"
   objectFile:
   - fileUUID: "5847a137-de4d-4b7a-af20-b16d218e5930"
