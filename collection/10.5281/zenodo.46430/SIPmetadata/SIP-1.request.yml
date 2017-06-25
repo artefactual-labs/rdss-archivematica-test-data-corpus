@@ -1,43 +1,15 @@
 # Feature: Ingest Metadata into RDSS-Archivematica-MVP
-#   Demonstrate flow of external RDSS metadata, normalized to RDSS CDM, stored in Archivematica AIP.
-#   Mockups are used for currently incomplete RDSS components (e.g. Message Broker) and entities (e.g. request.json messages).
-#   Sample data from this human-readable YAML file is converted to a request.json file to simulate the message contents used to trigger a register-preservation-request in RDSS-Archivematica.
-
-
-
-
-  Dataset preservation stage
-
-The Preservation Systems is notified that there is a new Dataset to be processed. [8]
-
-The Preservation System transfers the Files from the Jisc RDSS storage to Archivematica's working storage so they are ready to be processed. [9]
-
-The Metadata for the Dataset is transferred to the Preservation System. [10]
-
-The Files are loaded into Archivematica and go through Archivematica's preservation pipeline. [11]
-
-Archivematica generates an Archival Information Package (AIP). More details of the workflow supported inside Archivematica can be found on the Digital Preservation Capabilities page.
-
-At the end of the preservation process, the AIP is transferred to Archival Storage for long-term safekeeping. [12]
-
-The Repository is updated with the location of the AIP. [13]
-
-The Data Manager is notified that preservation is complete and the archival version of the Dataset is safely stored. [14]
-
-The Data Producer is notified that the Dataset has undergone preservation. The Data Producer can view the contents if they wish. [15]
-
-The Data Manager is happy knowing that the Dataset has been automatically preserved. The Data Producer is happy knowing that their Dataset now has a better chance of being accessible and usable by others over the long-term.
-
-  Coffee should not be served until the button has been pressed
-  If there is no coffee left then money should be refunded
-
-Scenario: Buy last coffee
-  Given there are 1 coffees left in the machine
-  And I have deposited 1$
-  When I press the coffee button
-  Then I should be served a coffee
-
-# Feature:
+#   Demonstrate the flow of external RDSS metadata, normalized to RDSS CDM, and stored in an Archivematica AIP.
+#   Designed for RDSS-Archivematica Minimal Viable Product release using stand-ins for not-yet-completed JISC-RDSS components (e.g. Message Broker, integrated RDM repositories) and entities (e.g. request.json messages).
+#   Sample data organised in this YAML file is converted to a request.json file that validates against RDSS-Messaging-API specification.
+#   The request.json is used to simulate a register-preservation-request in RDSS-Archivematica-MVP.
+#   The RDSS-Messaging-API uses the jisc:Object entity in the JISC-RDSS Canonical Data Model (CDM) as the root node for all message payload data.
+#
+# Scenario: Dataset with multiple files - including re-use instructions
+#   Given that the jisc:Object entity is being treated as a pcdm:Object with 'hasMember' relations to other pcdm:Object entities in the dataset.
+#   Given that the jisc:Object entity is being treated as a premis:Object.intellectualEntity with a structural relationship to other premis:Object.intellectualEntities where 'relationshipType' = 'structural' and 'relationshipSubtype' = 'includes'.
+#   Given that the Research Data Manager added the Appendix_Arcaute.pdf file to the two text files published under DOI 10.5281/zenodo.46430 and revised the datacite:objectDescription value to include this file.
+#   Then the sample data below instiates one jisc:Object where 'jisc:objectResourceType' = 'dataset'
 
 messageHeader:
   messageClass: "Command"
