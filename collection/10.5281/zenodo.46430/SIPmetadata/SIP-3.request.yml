@@ -37,9 +37,9 @@ messageBody:
       personGivenName: "Molinero, Carlos"
     Role: "dataCreator"
   objectDescription: |
-  This dataset contains source data files, supplemental material, and the published article that reports on the findings of the research.
-  This research uses percolation theory and data on the UK street network and its intersections to uncover regional fractures and hierchical structures.
-  The fractal dimension of the clusters are measured at each distance threshold in the percolation. The researchers observe that this reaches a maximum plateau at a specific distance. The clusters defined at this distance threshold are considered to be in excellent correspondence with the boundaries of cities recovered from satellite images, and from previous methods using population density.
+    This dataset contains source data files, supplemental material, and the published article that reports on the findings of the research.
+    This research uses percolation theory and data on the UK street network and its intersections to uncover regional fractures and hierarchical structures.
+    The fractal dimension of the clusters are measured at each distance threshold in the percolation. The researchers observe that this reaches a maximum plateau at a specific distance. The clusters defined at this distance threshold are considered to be in excellent correspondence with the boundaries of cities recovered from satellite images, and from previous methods using population density.
   objectPublisher:
   - Role: "publisher"
     Organisation:
@@ -123,7 +123,7 @@ messageBody:
     fileName: "F5.large.jpg"
     fileChecksum:
       - checksumType: "md5"
-        checksumValue: ""b729ab460b0d7c38a611905d6d3bb743
+        checksumValue: "b729ab460b0d7c38a611905d6d3bb743"
     fileStorageLocation: "s3://10.5821/zenodo.46430/F5.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "f096aec2-59eb-4b95-a407-58d56489c107"
