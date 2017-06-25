@@ -5,12 +5,12 @@
 #   The request.json is used to simulate a register-preservation-request in RDSS-Archivematica-MVP.
 #   The RDSS-Messaging-API uses the jisc:Object entity in the JISC-RDSS Canonical Data Model (CDM) as the root node for all message payload data.
 #
-# Scenario: Dataset with multiple files - including re-use instructions
-#   Given that the jisc:Object entity is being treated as a pcdm:Object with 'hasMember' relations to other pcdm:Object entities in the dataset.
-#   Given that the jisc:Object entity is being treated as a premis:Object.intellectualEntity with a structural relationship to other premis:Object.intellectualEntities where 'relationshipType' = 'structural' and 'relationshipSubtype' = 'includes'.
-#   Given that jisc:Object.objectFiles is null because it will inherit links to files from the jisc:Object entities that are included in the dataset. (TODO)
-#   Given that the Research Data Manager added the Appendix_Arcaute.pdf file to the two text files published under DOI 10.5281/zenodo.46430 and revised the datacite:objectDescription value to include this file.
-#   Then the sample data below instiates one jisc:Object where 'jisc:objectResourceType' = 'dataset', the dataset consist of multiple files, and the dataset includes instructions on re-use of the data files.
+# Scenario: Dataset with a single file
+#   Given that the jisc:Object entity is being treated as a pcdm:Object without any 'hasMember' relations to other pcdm:Object entities.
+#   Given that the jisc:Object entity is being treated as a premis:Object.intellectualEntity without any structural relationships to other premis:Object.intellectualEntities where 'relationshipType' = 'structural' and 'relationshipSubtype' = 'includes'
+#   Given that jisc:Object.objectFile is not null
+#   Given that the Researcher only uploaded a single file under the DOI 10.5281/zenodo.46430 identifier (not true for this specific example but often the case).
+#   Then the sample data below instiates one jisc:Object where 'jisc:objectResourceType' = 'dataset' and the dataset consist of one file.
 
 messageHeader:
   messageClass: "Command"
