@@ -1,0 +1,151 @@
+# Feature: Ingest Metadata into RDSS-Archivematica-MVP
+#   Demonstrate the flow of external RDSS metadata, normalized to RDSS CDM, and stored in an Archivematica AIP.
+#   Designed for RDSS-Archivematica Minimal Viable Product release using stand-ins for not-yet-completed JISC-RDSS components (e.g. Message Broker, integrated RDM repositories) and entities (e.g. request.json messages).
+#   Sample data organised in this YAML file is converted to a request.json file that validates against RDSS-Messaging-API specification.
+#   The request.json is used to simulate a register-preservation-request in RDSS-Archivematica-MVP.
+#   The RDSS-Messaging-API uses the jisc:Object entity in the JISC-RDSS Canonical Data Model (CDM) as the root node for all message payload data.
+#
+# Scenario: Dataset with multiple files - including published article and supplemental materials
+#   Given that the Research Data Manager acquired and added copies of the published article(s) with supplemental material(s) as well as revised the datacite:objectDescription to match the dataset's changed scope and content.
+#   Given that the jisc:Object entity is being treated as a pcdm:Object with 'hasMember' relations to other pcdm:Object entities in the dataset.
+#   Given that the jisc:Object entity is being treated as a premis:Object.intellectualEntity with a structural relationship to other premis:Object.intellectualEntities where 'relationshipType' = 'structural' and 'relationshipSubtype' = 'includes'.
+#   Then this test metadata instantiates one jisc:Object (where 'jisc:objectResourceType' = 'dataset') as a dataset that contains thirteen files.
+#   Then the jisc:objectFile value is null and links to files included in the dataset are inherited from the related jisc:Object entities (where 'jisc:ObjectRelatedIdentifier.Identifier.RelationType' = 'isCompiledBy') (**TODO**)
+
+messageHeader:
+  messageClass: "Command"
+  messageId: "4afcf928-9731-4068-b6f9-94625b1974cd"
+  messageType: "MetadataCreate"
+messageBody:
+  objectTitle: "Data: Cities and Regions in Britain through hierarchical percolation"
+  objectIdentifier:
+  - identifierValue: "10.5281/zenodo.46430"
+    identifierType: "DOI"
+  objectUUID: "d1dc2c18-aa1a-4e28-abbb-b27349edbe31"
+  objectResourceType: "dataset"
+  objectDate:
+  - dateType: "published"
+    dateValue: "2016"
+  objectContributor:
+  - Person:
+      personUUID: "f61cad2b-85c9-4981-a36f-79c1237d20ff"
+      personGivenName: "Arcaute, Elsa"
+    Role: "dataCreator"
+  - Person:
+      personUUID: "e4955742-52ba-4c61-b763-c28dda350316"
+      personGivenName: "Molinero, Carlos"
+    Role: "dataCreator"
+  objectDescription: |
+  This dataset contains source data files, supplemental material, and the published article that reports on the findings of the research.
+  This research uses percolation theory and data on the UK street network and its intersections to uncover regional fractures and hierchical structures.
+  The fractal dimension of the clusters are measured at each distance threshold in the percolation. The researchers observe that this reaches a maximum plateau at a specific distance. The clusters defined at this distance threshold are considered to be in excellent correspondence with the boundaries of cities recovered from satellite images, and from previous methods using population density.
+  objectPublisher:
+  - Role: "publisher"
+    Organisation:
+    - organisationName: "Royal Society Open Science"
+      organisationAddress: "https://royalsociety.org/about-us/contact-us/"
+  objectFile:
+  - fileUUID: "0463fb98-94e5-4281-b96f-7dd27653ef5a"
+    fileIdentifier: ""
+    fileName: "UK_ncol_mod.txt"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "bbbe3c81d3d64848afd875922735ab19"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/UK_ncol_mod.txt"
+    fileStorageType: "S3"
+  - fileUUID: "5847a137-de4d-4b7a-af20-b16d218e5930"
+    fileIdentifier: ""
+    fileName: "UK_coordinates_mod.txt"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "77162c173782bcc6d256559512297ff0"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt"
+    fileStorageType: "S3"
+  - fileUUID: "b48ae2fe-83a2-4913-a9e3-13530bd6f6c9"
+    fileIdentifier: ""
+    fileName: "Appendix_Arcaute.pdf"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "77f64226a291065d25a749994f6d522d"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "150691.full.pdf"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "602240b55f977a57e5c508926c63f307"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/150691.full.pdf"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: "150691.reviewer-comments.pdf"
+    fileName: ""
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "ceb1058e81a0a6f7e8776f2e821c3a29"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/150691.reviewer-comments.pdf"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F1.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "3cb91d8ab39bdd68036ad7c64bc78cde"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F1.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F2.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "80a6bbbc988427b54b4f60445d6068b3"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F2.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F3.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "0a1bfabaa80565cd98f3a1d2ba971139"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F3.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: "03fd0a8c0165e16c5c590bd1e0cb3c28"
+    fileName: "F4.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "03fd0a8c0165e16c5c590bd1e0cb3c28"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F4.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F5.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: ""b729ab460b0d7c38a611905d6d3bb743
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F5.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F6.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "9d48cbd451e5406268451b49f6810ce0 "
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F6.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F7.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "796f665357a16bb8c765895ade906299"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F7.large.jpg"
+    fileStorageType: "S3"
+  - fileUUID: "{UUID}"
+    fileIdentifier: ""
+    fileName: "F8.large.jpg"
+    fileChecksum:
+      - checksumType: "md5"
+        checksumValue: "ba551ad1721aa7e136fe98c647df51d6"
+    fileStorageLocation: "s3://10.5821/zenodo.46430/F8.large.jpg"
+    fileStorageType: "S3"

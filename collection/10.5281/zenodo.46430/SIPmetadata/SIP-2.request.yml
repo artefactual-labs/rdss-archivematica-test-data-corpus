@@ -5,12 +5,12 @@
 #   The request.json is used to simulate a register-preservation-request in RDSS-Archivematica-MVP.
 #   The RDSS-Messaging-API uses the jisc:Object entity in the JISC-RDSS Canonical Data Model (CDM) as the root node for all message payload data.
 #
-# Scenario: Dataset with a single file
+# Scenario: Dataset as a single file
+#   Given that the Researcher only uploaded a single file under the DOI 10.5281/zenodo.46430 identifier
 #   Given that the jisc:Object entity is being treated as a pcdm:Object without any 'hasMember' relations to other pcdm:Object entities.
 #   Given that the jisc:Object entity is being treated as a premis:Object.intellectualEntity without any structural relationships to other premis:Object.intellectualEntities where 'relationshipType' = 'structural' and 'relationshipSubtype' = 'includes'
-#   Given that jisc:Object.objectFile is not null
-#   Given that the Researcher only uploaded a single file under the DOI 10.5281/zenodo.46430 identifier (not true for this specific example but often the case).
-#   Then the sample data below instiates one jisc:Object where 'jisc:objectResourceType' = 'dataset' and the dataset consist of one file.
+#   Given that jisc:objectFile is not null
+#   Then this test metadata instiates one jisc:Object (where 'jisc:objectResourceType' = 'dataset') as a single-file dataset.
 
 messageHeader:
   messageClass: "Command"
@@ -36,27 +36,13 @@ messageBody:
       personGivenName: "Molinero, Carlos"
     Role: "dataCreator"
   objectDescription: |
-    This research can be reproduced with the U.K. Ordnance Survey datasets and the supplementary information in the Appendix_Arcaute.pdf document.
-    1) UK_coordinates_mod.txt
     This file contains a list of the all the intersection points, with columns for id of point, its coordinate x and its coordinate y.
-    2) UK_ncol_mod.txt
-    This file contains the information about the whole network. It is in the form of id of node 1, id of node 2 and the weight is given by the real length of the road connecting these two points.
-    3) Appendix_Arcaute.pdf
-    This file contains information about the algorithms and methods that the researchers used to analyze the research data.
   objectPublisher:
   - Role: "publisher"
     Organisation:
     - organisationName: "Royal Society Open Science"
       organisationAddress: "https://royalsociety.org/about-us/contact-us/"
   objectFile:
-  - fileUUID: "0463fb98-94e5-4281-b96f-7dd27653ef5a"
-    fileIdentifier: ""
-    fileName: "UK_ncol_mod.txt"
-    fileChecksum:
-      - checksumType: "md5"
-        checksumValue: "bbbe3c81d3d64848afd875922735ab19"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/UK_ncol_mod.txt"
-    fileStorageType: "S3"
   - fileUUID: "5847a137-de4d-4b7a-af20-b16d218e5930"
     fileIdentifier: ""
     fileName: "UK_coordinates_mod.txt"
@@ -64,12 +50,4 @@ messageBody:
       - checksumType: "md5"
         checksumValue: "77162c173782bcc6d256559512297ff0"
     fileStorageLocation: "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt"
-    fileStorageType: "S3"
-  - fileUUID: "b48ae2fe-83a2-4913-a9e3-13530bd6f6c9"
-    fileIdentifier: ""
-    fileName: "Appendix_Arcaute.pdf"
-    fileChecksum:
-      - checksumType: "md5"
-        checksumValue: "77f64226a291065d25a749994f6d522d"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf"
     fileStorageType: "S3"
