@@ -59,7 +59,7 @@
             "checksumValue": "bbbe3c81d3d64848afd875922735ab19"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_ncol_mod.txt",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/UK_ncol_mod.txt",
         "fileStorageType": "S3"
       },
       {
@@ -72,7 +72,7 @@
             "checksumValue": "77162c173782bcc6d256559512297ff0"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/UK_coordinates_mod.txt",
         "fileStorageType": "S3"
       },
       {
@@ -85,7 +85,7 @@
             "checksumValue": "77f64226a291065d25a749994f6d522d"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/Appendix_Arcaute.pdf",
         "fileStorageType": "S3"
       },
       {
@@ -98,7 +98,7 @@
             "checksumValue": "602240b55f977a57e5c508926c63f307"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/150691.full.pdf",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/150691.full.pdf",
         "fileStorageType": "S3"
       },
       {
@@ -111,7 +111,7 @@
             "checksumValue": "ceb1058e81a0a6f7e8776f2e821c3a29"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/150691.reviewer-comments.pdf",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/150691.reviewer-comments.pdf",
         "fileStorageType": "S3"
       },
       {
@@ -124,7 +124,7 @@
             "checksumValue": "3cb91d8ab39bdd68036ad7c64bc78cde"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F1.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F1.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -137,7 +137,7 @@
             "checksumValue": "80a6bbbc988427b54b4f60445d6068b3"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F2.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F2.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -150,7 +150,7 @@
             "checksumValue": "0a1bfabaa80565cd98f3a1d2ba971139"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F3.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F3.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -163,7 +163,7 @@
             "checksumValue": "03fd0a8c0165e16c5c590bd1e0cb3c28"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F4.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F4.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -176,7 +176,7 @@
             "checksumValue": "b729ab460b0d7c38a611905d6d3bb743"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F5.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F5.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -189,7 +189,7 @@
             "checksumValue": "9d48cbd451e5406268451b49f6810ce0 "
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F6.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F6.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -202,7 +202,7 @@
             "checksumValue": "796f665357a16bb8c765895ade906299"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F7.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F7.large.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -215,7 +215,7 @@
             "checksumValue": "ba551ad1721aa7e136fe98c647df51d6"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/F8.large.jpg",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/F8.large.jpg",
         "fileStorageType": "S3"
       }
     ]

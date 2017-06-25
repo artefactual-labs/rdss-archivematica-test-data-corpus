@@ -59,7 +59,7 @@
             "checksumValue": "bbbe3c81d3d64848afd875922735ab19"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_ncol_mod.txt",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/UK_ncol_mod.txt",
         "fileStorageType": "S3"
       },
       {
@@ -85,7 +85,7 @@
             "checksumValue": "77f64226a291065d25a749994f6d522d"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/Appendix_Arcaute.pdf",
         "fileStorageType": "S3"
       }
     ]
