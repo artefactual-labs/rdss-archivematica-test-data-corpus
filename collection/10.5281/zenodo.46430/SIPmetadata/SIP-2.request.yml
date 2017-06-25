@@ -1,3 +1,4 @@
+---
 # Feature: Ingest Metadata into RDSS-Archivematica-MVP
 #   Demonstrate the flow of external RDSS metadata, normalized to RDSS CDM, and stored in an Archivematica AIP.
 #   Designed for RDSS-Archivematica Minimal Viable Product release using stand-ins for not-yet-completed JISC-RDSS components (e.g. Message Broker, integrated RDM repositories) and entities (e.g. request.json messages).
