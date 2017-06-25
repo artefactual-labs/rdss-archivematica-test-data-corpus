@@ -1,7 +1,7 @@
 {
   "messageHeader": {
-    "messageId": "e4bdaea0-4712-4682-8d4b-e6d92b1fe1ac",
     "messageClass": "Command",
+    "messageId": "186369db-99cc-44db-9543-5fdb25a4694c",
     "messageType": "MetadataCreate"
   },
   "messageBody": {
@@ -47,8 +47,8 @@
     "objectDescription": "The fileset contains simulation files of the non-uniform meshed patch antennas (using FDTD Empire XCcel). The conductor thickness and conductivity can be adjusted according to the conductive threads.",
     "objectDate": [
       {
-        "dateValue": "2017-03-17",
-        "dateType": "published"
+        "dateType": "published",
+        "dateValue": "2017-03-17"
       }
     ],
     "objectResourceType": "Dataset",
@@ -60,40 +60,25 @@
     ],
     "objectPublisher": [
       {
+        "Role": "publisher",
         "Organisation": {
           "organisationName": "Loughborough University",
           "organisationAddress": "Epinal Way, Loughborough LE11 3TU, UK"
-        },
-        "Role": "publisher"
+        }
       }
     ],
     "objectFile": [
       {
-        "fileUUID": "42143745-dba9-9c98-cdd7-0c521ae55118",
-        "fileIdentifier": "1",
-        "fileName": "woodpigeon-pic.jpg",
-        "fileSize": 147004,
+        "fileUUID": "1d4bc5bf-7ae1-4a56-b905-4947c6efc9ec",
+        "fileIdentifier": "",
+        "fileName": "IET-MAP.2016.0901.pdf",
         "fileChecksum": [
           {
             "checksumType": "md5",
-            "checksumValue": "53a64110e067b14394c142c09571bea0"
+            "checksumValue": "5177e1ff9867e0bb101d0a389db826ab"
           }
         ],
-        "fileStorageLocation": "s3://rdss-prod-figshare-0132/woodpigeon-pic.jpg",
-        "fileStorageType": "S3"
-      },
-      {
-        "fileUUID": "9102f719-2f78-d9c2-de12-15f27024f78b",
-        "fileIdentifier": "2",
-        "fileName": "bird-sounds.mp3",
-        "fileSize": 910616,
-        "fileChecksum": [
-          {
-            "checksumType": "md5",
-            "checksumValue": "92c8ab01cecceb3bf0789c2cd8c7415a"
-          }
-        ],
-        "fileStorageLocation": "s3://rdss-prod-figshare-0132/bird-sounds.mp3",
+        "fileStorageLocation": "s3://10.17028/rd.lboro.4665448.v1/IET-MAP.2016.0901.pdf",
         "fileStorageType": "S3"
       }
     ]
