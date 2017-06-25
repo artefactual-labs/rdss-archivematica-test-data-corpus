@@ -40,12 +40,10 @@
     "objectPublisher": [
       {
         "Role": "publisher",
-        "Organisation": [
-          {
+        "Organisation": {
             "organisationName": "Royal Society Open Science",
             "organisationAddress": "https://royalsociety.org/about-us/contact-us/"
           }
-        ]
       }
     ],
     "objectFile": [

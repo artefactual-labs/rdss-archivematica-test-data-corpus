@@ -39,14 +39,12 @@
     "objectDescription": "This research can be reproduced with the U.K. Ordnance Survey datasets and the supplementary information in the Appendix_Arcaute.pdf document.\n1) UK_coordinates_mod.txt\nThis file contains a list of the all the intersection points, with columns for id of point, its coordinate x and its coordinate y.\n2) UK_ncol_mod.txt\nThis file contains the information about the whole network. It is in the form of id of node 1, id of node 2 and the weight is given by the real length of the road connecting these two points.\n3) Appendix_Arcaute.pdf\nThis file contains information about the algorithms and methods that the researchers used to analyze the research data.\n",
     "objectPublisher": [
       {
-        "Role": "publisher",
-        "Organisation": [
-          {
-            "organisationName": "Royal Society Open Science",
-            "organisationAddress": "https://royalsociety.org/about-us/contact-us/"
-          }
-        ]
-      }
+         "Organisation": {
+           "organisationName": "Royal Society Open Science",
+           "organisationAddress": "https://royalsociety.org/about-us/contact-us/"
+         },
+        "Role": "publisher"
+       }
     ],
     "objectFile": [
       {
