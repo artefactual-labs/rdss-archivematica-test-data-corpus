@@ -52,7 +52,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "bbbe3c81d3d64848afd875922735ab19"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/UK_ncol_mod.txt"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/UK_ncol_mod.txt"
     fileStorageType: "S3"
   - fileUUID: "5847a137-de4d-4b7a-af20-b16d218e5930"
     fileIdentifier: ""
@@ -60,7 +60,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "77162c173782bcc6d256559512297ff0"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/UK_coordinates_mod.txt"
     fileStorageType: "S3"
   - fileUUID: "b48ae2fe-83a2-4913-a9e3-13530bd6f6c9"
     fileIdentifier: ""
@@ -68,7 +68,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "77f64226a291065d25a749994f6d522d"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/Appendix_Arcaute.pdf"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/Appendix_Arcaute.pdf"
     fileStorageType: "S3"
   - fileUUID: "da0bbe6d-336f-4e21-b404-40e0815b1e00"
     fileIdentifier: ""
@@ -76,7 +76,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "602240b55f977a57e5c508926c63f307"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/150691.full.pdf"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/150691.full.pdf"
     fileStorageType: "S3"
   - fileUUID: "0b373179-5f19-453e-aa6d-0cff224e4f01"
     fileIdentifier: "150691.reviewer-comments.pdf"
@@ -84,7 +84,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "ceb1058e81a0a6f7e8776f2e821c3a29"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/150691.reviewer-comments.pdf"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/150691.reviewer-comments.pdf"
     fileStorageType: "S3"
   - fileUUID: "3f67b35a-10db-487b-adc4-fd1c55cc74f0"
     fileIdentifier: ""
@@ -92,7 +92,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "3cb91d8ab39bdd68036ad7c64bc78cde"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F1.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F1.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "a9eb99db-91df-4b01-85f5-cca70a1dded8"
     fileIdentifier: ""
@@ -100,7 +100,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "80a6bbbc988427b54b4f60445d6068b3"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F2.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F2.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "97210c57-50fe-406f-b284-cca559f66cfc"
     fileIdentifier: ""
@@ -108,7 +108,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "0a1bfabaa80565cd98f3a1d2ba971139"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F3.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F3.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "2416c37b-5fbf-4ee0-9780-48ee38086750"
     fileIdentifier: "03fd0a8c0165e16c5c590bd1e0cb3c28"
@@ -116,7 +116,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "03fd0a8c0165e16c5c590bd1e0cb3c28"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F4.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F4.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "3245fc80-4b94-4245-b25d-29b7d719ea50"
     fileIdentifier: ""
@@ -124,7 +124,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "b729ab460b0d7c38a611905d6d3bb743"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F5.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F5.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "f096aec2-59eb-4b95-a407-58d56489c107"
     fileIdentifier: ""
@@ -132,7 +132,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "9d48cbd451e5406268451b49f6810ce0 "
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F6.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F6.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "98592fd1-d891-4211-90c7-faa96539e275"
     fileIdentifier: ""
@@ -140,7 +140,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "796f665357a16bb8c765895ade906299"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F7.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F7.large.jpg"
     fileStorageType: "S3"
   - fileUUID: "57d323fc-6e96-4100-b1d2-7153cc94dc24"
     fileIdentifier: ""
@@ -148,5 +148,5 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "ba551ad1721aa7e136fe98c647df51d6"
-    fileStorageLocation: "s3://10.5821/zenodo.46430/F8.large.jpg"
+    fileStorageLocation: "s3://10.5281/zenodo.46430/F8.large.jpg"
     fileStorageType: "S3"

@@ -27,7 +27,7 @@ messageBody:
   objectPublisher:
   - Role: "publisher"
     Organisation:
-    - organisationName: ""
+      organisationName: ""
       organisationAddress: ""
   objectFile:
   - fileUUID: "{UUID}"
