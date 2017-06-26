@@ -70,7 +70,7 @@
             "checksumValue": "77162c173782bcc6d256559512297ff0"
           }
         ],
-        "fileStorageLocation": "s3://10.5821/zenodo.46430/UK_coordinates_mod.txt",
+        "fileStorageLocation": "s3://10.5281/zenodo.46430/UK_coordinates_mod.txt",
         "fileStorageType": "S3"
       },
       {
