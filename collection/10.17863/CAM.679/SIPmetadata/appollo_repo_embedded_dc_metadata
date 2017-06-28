@@ -1,0 +1,27 @@
+source: https://www.repository.cam.ac.uk/handle/1810/256743?show=full
+<title>Research Data Supporting "Response bounds for complex systems with a localised and uncertain nonlinearity"</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Butlin, T." />
+<meta name="DCTERMS.dateAccepted" content="2016-07-14T10:57:13Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2016-07-14T10:57:13Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="https://www.repository.cam.ac.uk/handle/1810/256743" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Experimental and numerical data used for comparisons. Further details can be found in readme.txt." xml:lang="en" />
+<meta name="DC.description" content="EPSRC&#xD;&#xA;Royal Academy of Engineering" xml:lang="en" />
+<meta name="DC.format" content="Matlab" xml:lang="en" />
+<meta name="DC.publisher" content="University of Cambridge" xml:lang="en" />
+<meta name="DC.rights" content="Attribution 4.0 International" xml:lang="*" />
+<meta name="DC.rights" content="http://creativecommons.org/licenses/by/4.0/" xml:lang="*" scheme="DCTERMS.URI" />
+<meta name="DC.subject" content="impacting beam" xml:lang="en" />
+<meta name="DC.subject" content="friction damped beam" xml:lang="en" />
+<meta name="DC.title" content="Research Data Supporting &quot;Response bounds for complex systems with a localised and uncertain nonlinearity&quot;" xml:lang="en" />
+<meta name="DC.type" content="Dataset" xml:lang="en" />
+<meta name="DC.identifier" content="10.17863/CAM.679" />
+<meta name="DC.contributor" content="Butlin, T. [0000-0002-7814-8107]" xml:lang="en" />
+<meta content="impacting beam; friction damped beam; Dataset" name="citation_keywords">
+<meta content="Research Data Supporting &quot;Response bounds for complex systems with a localised and uncertain nonlinearity&quot;" name="citation_title">
+<meta content="University of Cambridge" name="citation_publisher">
+<meta content="Butlin, T." name="citation_author">
+<meta content="https://www.repository.cam.ac.uk/bitstream/1810/256743/1/readme.txt" name="citation_pdf_url">
+<meta content="2016-07-14T10:57:13Z" name="citation_date">
+<meta content="https://www.repository.cam.ac.uk/handle/1810/256743" name="citation_abstract_html_url">

@@ -1,0 +1,712 @@
+--2017-06-28 02:21:11--  https://api.crossref.org/works/10.1016/j.jsv.2016.08.015
+Resolving api.crossref.org... 208.254.38.72
+Connecting to api.crossref.org|208.254.38.72|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Type: application/json;charset=UTF-8
+  Vary: Accept
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: X-Requested-With
+  Content-Length: 3056
+  Server: http-kit
+  Date: Wed, 28 Jun 2017 01:21:12 GMT
+  X-Rate-Limit-Limit: 50
+  X-Rate-Limit-Interval: 1s
+  Connection: close
+Length: 3056 (3.0K) [application/json]
+Saving to: ‘../sourceFiles/j.jsv.2016.08.015’
+
+     0K ..                                                    100%  104M=0s
+
+2017-06-28 02:21:12 (104 MB/s) - ‘../sourceFiles/j.jsv.2016.08.015’ saved [3056/3056]
+
+--2017-06-28 02:21:12--  http://ac.els-cdn.com/S0022460X16304035/1-s2.0-S0022460X16304035-main.pdf?_tid=a2243dac-5b9c-11e7-9e15-00000aab0f01&acdnat=1498611575_dd7532b4f3f46f9b56d0d350ab084fe5
+Resolving ac.els-cdn.com... 2.22.146.106, 2.22.146.107
+Connecting to ac.els-cdn.com|2.22.146.106|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 302 Moved Temporarily
+  Server: AkamaiGHost
+  Content-Length: 0
+  Location: http://www.sciencedirect.com/science/article/pii/S0022460X16304035
+  Expires: Wed, 28 Jun 2017 01:21:12 GMT
+  Cache-Control: max-age=0, no-cache, no-store
+  Pragma: no-cache
+  Date: Wed, 28 Jun 2017 01:21:12 GMT
+  Connection: keep-alive
+Location: http://www.sciencedirect.com/science/article/pii/S0022460X16304035 [following]
+--2017-06-28 02:21:12--  http://www.sciencedirect.com/science/article/pii/S0022460X16304035
+Resolving www.sciencedirect.com... 23.43.70.153
+Connecting to www.sciencedirect.com|23.43.70.153|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Type: text/html; charset=utf-8
+  Server: nginx
+  X-Content-Type-Options: nosniff
+  x-correlation-id: arp-6ccb8626-d974-49fa-8b80-a130d1999a00
+  X-ELS-Platform: sdfe
+  X-Region: us-east-1
+  X-Router: true
+  x-sdfe-corr-id: arp-6ccb8626-d974-49fa-8b80-a130d1999a00
+  X-XSS-Protection: 1; mode=block
+  Vary: Accept-Encoding
+  Expires: Wed, 28 Jun 2017 01:21:13 GMT
+  Cache-Control: max-age=0, no-cache, no-store
+  Pragma: no-cache
+  Date: Wed, 28 Jun 2017 01:21:13 GMT
+  Transfer-Encoding:  chunked
+  Connection: keep-alive
+  Connection: Transfer-Encoding
+  Set-Cookie: EUID=68f0b49e-d9c4-4255-a223-6ffe7c319666;Version=1;Domain=.sciencedirect.com;Path=/;Expires=Sun, 28 Jun 2037 01:21:12 GMT
+  Set-Cookie: MIAMISESSION=237e8d47-d3c7-4cdb-8aef-237b28cc6f43:3676065672;Version=1;Domain=.sciencedirect.com;Path=/;HttpOnly
+  Set-Cookie: sd_session_id=33f6-0d4564cec51cfa22533f6e6afd59ebbaa6f;Version=1;Domain=.sciencedirect.com;Path=/
+  Set-Cookie: acw=23f6-0d4564cec51cfa22533f6e6afd59ebbaa6f%7C%24%7C7F9B6B91C71A6D9BABF568222B67634DD98BC7AAAACD343EF5E9B021B73A3443518414677F952A77D40EECB31477509B7F4C0BA3CE4113F4A2F71CEDB4D14412AA09CCC6595879D77A1D0E27E3BF1C92D47E8288F2FB732E7882FD4017181A00D74FDB647D9EF37633EB089707E858277135FA8B0EBD1D3FBDADBC2225E09D1F;Version=1;Domain=.sciencedirect.com;Path=/
+  Set-Cookie: sid=a797d0a2-d4fd-4cc3-a242-2bc568ce2827;Version=1;Domain=.sciencedirect.com;Path=/;HttpOnly;Expires=Thu, 28 Jun 2018 01:21:12 GMT
+  Set-Cookie: Search_AB_20170605=777; expires=Fri, 28-Jul-2017 01:21:13 GMT; path=/
+Length: unspecified [text/html]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-main.pdf?_tid=a2243dac-5b9c-11e7-9e15-00000aab0f01&acdnat=1498611575_dd7532b4f3f46f9b56d0d350ab084fe5.html’
+
+     0K .......... .......... .......... .......... ........    560K=0.09s
+
+2017-06-28 02:21:13 (560 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-main.pdf?_tid=a2243dac-5b9c-11e7-9e15-00000aab0f01&acdnat=1498611575_dd7532b4f3f46f9b56d0d350ab084fe5.html’ saved [49795]
+
+--2017-06-28 02:21:13--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr1_lrg.jpg
+Resolving ars.els-cdn.com... 2.22.146.104, 2.22.146.122
+Connecting to ars.els-cdn.com|2.22.146.104|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 0ff5bbd1-7b1c-4542-b193-ea7dc6f3ee65
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-46-66.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 68919
+  X-ELS-Status: OK
+  Content-Length: 68919
+  Date: Wed, 28 Jun 2017 01:21:13 GMT
+  Connection: keep-alive
+Length: 68919 (67K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr1_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 74%  618K 0s
+    50K .......... .......                                    100%  563K=0.1s
+
+2017-06-28 02:21:13 (603 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr1_lrg.jpg’ saved [68919/68919]
+
+--2017-06-28 02:21:13--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr2_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: ab6dde65-8b9a-4a3a-8f23-7f41949f1261
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-216.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 228239
+  X-ELS-Status: OK
+  Content-Length: 228239
+  Date: Wed, 28 Jun 2017 01:21:13 GMT
+  Connection: keep-alive
+Length: 228239 (223K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr2_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 22%  614K 0s
+    50K .......... .......... .......... .......... .......... 44%  564K 0s
+   100K .......... .......... .......... .......... .......... 67%  601K 0s
+   150K .......... .......... .......... .......... .......... 89%  589K 0s
+   200K .......... .......... ..                              100%  599K=0.4s
+
+2017-06-28 02:21:13 (592 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr2_lrg.jpg’ saved [228239/228239]
+
+--2017-06-28 02:21:13--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr3_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: b31e27b3-0f85-40e7-98ce-a0bc58c01cd3
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-45-172.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 448940
+  X-ELS-Status: OK
+  Content-Length: 448940
+  Date: Wed, 28 Jun 2017 01:21:13 GMT
+  Connection: keep-alive
+Length: 448940 (438K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr3_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 11%  614K 1s
+    50K .......... .......... .......... .......... .......... 22%  571K 1s
+   100K .......... .......... .......... .......... .......... 34%  581K 0s
+   150K .......... .......... .......... .......... .......... 45%  580K 0s
+   200K .......... .......... .......... .......... .......... 57%  575K 0s
+   250K .......... .......... .......... .......... .......... 68%  602K 0s
+   300K .......... .......... .......... .......... .......... 79%  580K 0s
+   350K .......... .......... .......... .......... .......... 91%  577K 0s
+   400K .......... .......... .......... ........             100%  583K=0.8s
+
+2017-06-28 02:21:14 (584 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr3_lrg.jpg’ saved [448940/448940]
+
+--2017-06-28 02:21:14--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr4_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: fa03d001-e2a6-4d3e-a208-b4132e019718
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-216.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 554379
+  X-ELS-Status: OK
+  Content-Length: 554379
+  Date: Wed, 28 Jun 2017 01:21:14 GMT
+  Connection: keep-alive
+Length: 554379 (541K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr4_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  9%  623K 1s
+    50K .......... .......... .......... .......... .......... 18%  573K 1s
+   100K .......... .......... .......... .......... .......... 27%  596K 1s
+   150K .......... .......... .......... .......... .......... 36%  588K 1s
+   200K .......... .......... .......... .......... .......... 46%  574K 0s
+   250K .......... .......... .......... .......... .......... 55%  587K 0s
+   300K .......... .......... .......... .......... .......... 64%  590K 0s
+   350K .......... .......... .......... .......... .......... 73%  574K 0s
+   400K .......... .......... .......... .......... .......... 83%  588K 0s
+   450K .......... .......... .......... .......... .......... 92%  594K 0s
+   500K .......... .......... .......... .......... .         100%  568K=0.9s
+
+2017-06-28 02:21:15 (587 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr4_lrg.jpg’ saved [554379/554379]
+
+--2017-06-28 02:21:15--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr5_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: e8913d10-3d65-4328-9d66-18b2608f2f20
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-216.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 173321
+  X-ELS-Status: OK
+  Content-Length: 173321
+  Date: Wed, 28 Jun 2017 01:21:15 GMT
+  Connection: keep-alive
+Length: 173321 (169K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr5_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 29%  573K 0s
+    50K .......... .......... .......... .......... .......... 59%  619K 0s
+   100K .......... .......... .......... .......... .......... 88%  545K 0s
+   150K .......... .........                                  100%  620K=0.3s
+
+2017-06-28 02:21:15 (582 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr5_lrg.jpg’ saved [173321/173321]
+
+--2017-06-28 02:21:15--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr6_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: d6ba4f2b-3ccc-4f1f-8eef-e4bd56111f24
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-45-172.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 692598
+  X-ELS-Status: OK
+  Content-Length: 692598
+  Date: Wed, 28 Jun 2017 01:21:15 GMT
+  Connection: keep-alive
+Length: 692598 (676K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr6_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  7%  610K 1s
+    50K .......... .......... .......... .......... .......... 14%  573K 1s
+   100K .......... .......... .......... .......... .......... 22%  403K 1s
+   150K .......... .......... .......... .......... .......... 29% 1.09M 1s
+   200K .......... .......... .......... .......... .......... 36%  562K 1s
+   250K .......... .......... .......... .......... .......... 44%  601K 1s
+   300K .......... .......... .......... .......... .......... 51%  588K 1s
+   350K .......... .......... .......... .......... .......... 59%  510K 0s
+   400K .......... .......... .......... .......... .......... 66%  594K 0s
+   450K .......... .......... .......... .......... .......... 73%  597K 0s
+   500K .......... .......... .......... .......... .......... 81%  576K 0s
+   550K .......... .......... .......... .......... .......... 88%  459K 0s
+   600K .......... .......... .......... .......... .......... 96%  666K 0s
+   650K .......... .......... ......                          100%  565K=1.2s
+
+2017-06-28 02:21:16 (574 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr6_lrg.jpg’ saved [692598/692598]
+
+--2017-06-28 02:21:16--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr7_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 008b9357-fdd8-475a-b644-e597c3d4e1a3
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-216.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 570884
+  X-ELS-Status: OK
+  Content-Length: 570884
+  Date: Wed, 28 Jun 2017 01:21:16 GMT
+  Connection: keep-alive
+Length: 570884 (558K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr7_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  8%  620K 1s
+    50K .......... .......... .......... .......... .......... 17%  576K 1s
+   100K .......... .......... .......... .......... .......... 26%  583K 1s
+   150K .......... .......... .......... .......... .......... 35%  590K 1s
+   200K .......... .......... .......... .......... .......... 44%  575K 1s
+   250K .......... .......... .......... .......... .......... 53%  589K 0s
+   300K .......... .......... .......... .......... .......... 62%  596K 0s
+   350K .......... .......... .......... .......... .......... 71%  571K 0s
+   400K .......... .......... .......... .......... .......... 80%  592K 0s
+   450K .......... .......... .......... .......... .......... 89%  588K 0s
+   500K .......... .......... .......... .......... .......... 98%  577K 0s
+   550K .......                                               100%  615K=0.9s
+
+2017-06-28 02:21:17 (587 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr7_lrg.jpg’ saved [570884/570884]
+
+--2017-06-28 02:21:17--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr8_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 8c66b6e5-3711-4fc7-b326-52dc684ce64d
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-46-66.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 1861955
+  X-ELS-Status: OK
+  Content-Length: 1861955
+  Date: Wed, 28 Jun 2017 01:21:17 GMT
+  Connection: keep-alive
+Length: 1861955 (1.8M) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr8_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  2%  614K 3s
+    50K .......... .......... .......... .......... ..........  5%  575K 3s
+   100K .......... .......... .......... .......... ..........  8%  581K 3s
+   150K .......... .......... .......... .......... .......... 10%  603K 3s
+   200K .......... .......... .......... .......... .......... 13%  570K 3s
+   250K .......... .......... .......... .......... .......... 16%  484K 3s
+   300K .......... .......... .......... .......... .......... 19%  595K 3s
+   350K .......... .......... .......... .......... .......... 21%  570K 2s
+   400K .......... .......... .......... .......... .......... 24%  592K 2s
+   450K .......... .......... .......... .......... .......... 27%  584K 2s
+   500K .......... .......... .......... .......... .......... 30%  578K 2s
+   550K .......... .......... .......... .......... .......... 32%  588K 2s
+   600K .......... .......... .......... .......... .......... 35%  578K 2s
+   650K .......... .......... .......... .......... .......... 38%  466K 2s
+   700K .......... .......... .......... .......... .......... 41%  568K 2s
+   750K .......... .......... .......... .......... .......... 43%  575K 2s
+   800K .......... .......... .......... .......... .......... 46%  588K 2s
+   850K .......... .......... .......... .......... .......... 49%  600K 2s
+   900K .......... .......... .......... .......... .......... 52%  513K 2s
+   950K .......... .......... .......... .......... .......... 54%  593K 1s
+  1000K .......... .......... .......... .......... .......... 57%  582K 1s
+  1050K .......... .......... .......... .......... .......... 60%  562K 1s
+  1100K .......... .......... .......... .......... .......... 63%  587K 1s
+  1150K .......... .......... .......... .......... .......... 65%  580K 1s
+  1200K .......... .......... .......... .......... .......... 68%  576K 1s
+  1250K .......... .......... .......... .......... .......... 71%  544K 1s
+  1300K .......... .......... .......... .......... .......... 74%  568K 1s
+  1350K .......... .......... .......... .......... .......... 76%  557K 1s
+  1400K .......... .......... .......... .......... .......... 79%  602K 1s
+  1450K .......... .......... .......... .......... .......... 82%  555K 1s
+  1500K .......... .......... .......... .......... .......... 85%  567K 0s
+  1550K .......... .......... .......... .......... .......... 87%  558K 0s
+  1600K .......... .......... .......... .......... .......... 90%  584K 0s
+  1650K .......... .......... .......... .......... .......... 93%  564K 0s
+  1700K .......... .......... .......... .......... .......... 96%  602K 0s
+  1750K .......... .......... .......... .......... .......... 98%  573K 0s
+  1800K .......... ........                                   100%  595K=3.2s
+
+2017-06-28 02:21:21 (570 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr8_lrg.jpg’ saved [1861955/1861955]
+
+--2017-06-28 02:21:21--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr9_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 7eb2f925-3ee5-415a-98aa-daeed4016663
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-46-112.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 579078
+  X-ELS-Status: OK
+  Content-Length: 579078
+  Date: Wed, 28 Jun 2017 01:21:21 GMT
+  Connection: keep-alive
+Length: 579078 (566K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr9_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  8%  619K 1s
+    50K .......... .......... .......... .......... .......... 17%  560K 1s
+   100K .......... .......... .......... .......... .......... 26%  596K 1s
+   150K .......... .......... .......... .......... .......... 35%  586K 1s
+   200K .......... .......... .......... .......... .......... 44%  577K 1s
+   250K .......... .......... .......... .......... .......... 53%  578K 0s
+   300K .......... .......... .......... .......... .......... 61%  606K 0s
+   350K .......... .......... .......... .......... .......... 70%  567K 0s
+   400K .......... .......... .......... .......... .......... 79%  594K 0s
+   450K .......... .......... .......... .......... .......... 88%  586K 0s
+   500K .......... .......... .......... .......... .......... 97%  577K 0s
+   550K .......... .....                                      100%  581K=1.0s
+
+2017-06-28 02:21:22 (586 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr9_lrg.jpg’ saved [579078/579078]
+
+--2017-06-28 02:21:22--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr10_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 3251ebb8-71f3-4bc2-8fb2-572c8acad044
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-216.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 448802
+  X-ELS-Status: OK
+  Content-Length: 448802
+  Date: Wed, 28 Jun 2017 01:21:22 GMT
+  Connection: keep-alive
+Length: 448802 (438K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr10_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 11%  611K 1s
+    50K .......... .......... .......... .......... .......... 22%  575K 1s
+   100K .......... .......... .......... .......... .......... 34%  578K 0s
+   150K .......... .......... .......... .......... .......... 45%  590K 0s
+   200K .......... .......... .......... .......... .......... 57%  576K 0s
+   250K .......... .......... .......... .......... .......... 68%  601K 0s
+   300K .......... .......... .......... .......... .......... 79%  595K 0s
+   350K .......... .......... .......... .......... .......... 91%  568K 0s
+   400K .......... .......... .......... ........             100%  573K=0.7s
+
+2017-06-28 02:21:22 (585 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr10_lrg.jpg’ saved [448802/448802]
+
+--2017-06-28 02:21:22--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr11_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 7fc423f5-48a3-4fc0-925a-c1828557cdea
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-44-161.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 545471
+  X-ELS-Status: OK
+  Content-Length: 545471
+  Date: Wed, 28 Jun 2017 01:21:22 GMT
+  Connection: keep-alive
+Length: 545471 (533K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr11_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  9%  625K 1s
+    50K .......... .......... .......... .......... .......... 18%  537K 1s
+   100K .......... .......... .......... .......... .......... 28%  604K 1s
+   150K .......... .......... .......... .......... .......... 37%  593K 1s
+   200K .......... .......... .......... .......... .......... 46%  527K 0s
+   250K .......... .......... .......... .......... .......... 56%  643K 0s
+   300K .......... .......... .......... .......... .......... 65%  594K 0s
+   350K .......... .......... .......... .......... .......... 75%  565K 0s
+   400K .......... .......... .......... .......... .......... 84%  596K 0s
+   450K .......... .......... .......... .......... .......... 93%  594K 0s
+   500K .......... .......... .......... ..                   100%  554K=0.9s
+
+2017-06-28 02:21:23 (584 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr11_lrg.jpg’ saved [545471/545471]
+
+--2017-06-28 02:21:23--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr12_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 298448cb-ebff-49e1-b1b6-bd35c5d0de20
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-46-112.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 492741
+  X-ELS-Status: OK
+  Content-Length: 492741
+  Date: Wed, 28 Jun 2017 01:21:23 GMT
+  Connection: keep-alive
+Length: 492741 (481K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr12_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 10%  617K 1s
+    50K .......... .......... .......... .......... .......... 20%  570K 1s
+   100K .......... .......... .......... .......... .......... 31%  595K 1s
+   150K .......... .......... .......... .......... .......... 41%  589K 0s
+   200K .......... .......... .......... .......... .......... 51%  573K 0s
+   250K .......... .......... .......... .......... .......... 62%  577K 0s
+   300K .......... .......... .......... .......... .......... 72%  610K 0s
+   350K .......... .......... .......... .......... .......... 83%  573K 0s
+   400K .......... .......... .......... .......... .......... 93%  592K 0s
+   450K .......... .......... .......... .                    100%  584K=0.8s
+
+2017-06-28 02:21:24 (588 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr12_lrg.jpg’ saved [492741/492741]
+
+--2017-06-28 02:21:24--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr13_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 88380e53-4eea-4920-a850-f34243fa470a
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-45-172.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 293754
+  X-ELS-Status: OK
+  Content-Length: 293754
+  Date: Wed, 28 Jun 2017 01:21:24 GMT
+  Connection: keep-alive
+Length: 293754 (287K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg’
+
+     0K .......... .......... .......... .......... .......... 17%  612K 0s
+    50K .......... .......... .......... .......... .......... 34%  566K 0s
+   100K .......... .......... .......... .......... .......... 52%  571K 0s
+   150K .......... .......... .......... .......... .......... 69%  613K 0s
+   200K .......... .......... .......... .......... .......... 87%  574K 0s
+   250K .......... .......... .......... ......               100%  580K=0.5s
+
+2017-06-28 02:21:25 (586 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg’ saved [293754/293754]
+
+--2017-06-28 02:21:25--  http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr14_lrg.jpg
+Reusing existing connection to ars.els-cdn.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Accept-Ranges: bytes
+  Allow: GET
+  Content-Type: image/jpeg
+  Last-Modified: Thu, 02 Mar 2017 06:48:33 GMT
+  Server: Apache-Coyote/1.1
+  X-ELS-Authentication: NONAUTHATTACH
+  X-ELS-ReqId: 225ff264-ce0e-4a9a-aada-02f515bfc7ba
+  X-ELS-ResourceVersion: V1
+  X-ELS-ServerId: ip-10-93-45-32.els.vpc.local_CloudAttachmentRetrieval_prod
+  X-ELS-SIZE: 806125
+  X-ELS-Status: OK
+  Content-Length: 806125
+  Date: Wed, 28 Jun 2017 01:21:25 GMT
+  Connection: keep-alive
+Length: 806125 (787K) [image/jpeg]
+Saving to: ‘../sourceFiles/1-s2.0-S0022460X16304035-gr14_lrg.jpg’
+
+     0K .......... .......... .......... .......... ..........  6%  617K 1s
+    50K .......... .......... .......... .......... .......... 12%  545K 1s
+   100K .......... .......... .......... .......... .......... 19%  587K 1s
+   150K .......... .......... .......... .......... .......... 25%  596K 1s
+   200K .......... .......... .......... .......... .......... 31%  570K 1s
+   250K .......... .......... .......... .......... .......... 38%  584K 1s
+   300K .......... .......... .......... .......... .......... 44%  591K 1s
+   350K .......... .......... .......... .......... .......... 50%  580K 1s
+   400K .......... .......... .......... .......... .......... 57%  578K 1s
+   450K .......... .......... .......... .......... .......... 63%  604K 0s
+   500K .......... .......... .......... .......... .......... 69%  576K 0s
+   550K .......... .......... .......... .......... .......... 76%  589K 0s
+   600K .......... .......... .......... .......... .......... 82%  587K 0s
+   650K .......... .......... .......... .......... .......... 88%  576K 0s
+   700K .......... .......... .......... .......... .......... 95%  580K 0s
+   750K .......... .......... .......... .......              100%  585K=1.3s
+
+2017-06-28 02:21:26 (584 KB/s) - ‘../sourceFiles/1-s2.0-S0022460X16304035-gr14_lrg.jpg’ saved [806125/806125]
+
+--2017-06-28 02:21:26--  https://api.datacite.org/works/10.17863/CAM.679
+Resolving api.datacite.org... 52.18.162.183, 52.19.95.250
+Connecting to api.datacite.org|52.18.162.183|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Access-Control-Allow-Headers: Content-Type,Accept,Accept-Encoding,Origin,User-Agent,Cache-Control,Keep-Alive
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Max-Age: 1728000
+  Cache-Control: max-age=0, private, must-revalidate
+  Content-Type: application/vnd.api+json; charset=utf-8
+  Date: Wed, 28 Jun 2017 01:21:26 GMT
+  ETag: W/"674573f24e5f280b3203a1c8b75a8ad5"
+  Server: openresty/1.11.2.2
+  Status: 200 OK
+  Vary: Accept-Encoding
+  Via: kong/0.10.3
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-Kong-Proxy-Latency: 1
+  X-Kong-Upstream-Latency: 42
+  X-Powered-By: Phusion Passenger 5.1.5
+  X-RateLimit-Limit-hour: 100000
+  X-RateLimit-Remaining-hour: 99994
+  X-Request-Id: fc89f185-e39e-4e4e-9e19-39eb57a3d42b
+  X-Runtime: 0.041497
+  X-XSS-Protection: 1; mode=block
+  Content-Length: 3613
+  Connection: keep-alive
+Length: 3613 (3.5K) [application/vnd.api+json]
+Saving to: ‘../sourceFiles/CAM.679’
+
+     0K ...                                                   100%  246M=0s
+
+2017-06-28 02:21:26 (246 MB/s) - ‘../sourceFiles/CAM.679’ saved [3613/3613]
+
+--2017-06-28 02:21:26--  https://www.repository.cam.ac.uk/bitstream/handle/1810/256743/readme.txt
+Resolving www.repository.cam.ac.uk... 131.111.98.67
+Connecting to www.repository.cam.ac.uk|131.111.98.67|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Date: Wed, 28 Jun 2017 01:21:26 GMT
+  Server: Apache-Coyote/1.1
+  Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+  X-Cocoon-Version: 2.2.0
+  Vary: User-Agent,Accept-Encoding
+  Last-Modified: Thu, 20 Oct 2016 13:50:39 GMT
+  Expires: Wed, 28 Jun 2017 02:21:26 GMT
+  Content-Type: text/plain;charset=ISO-8859-1
+  Content-Language: en-GB
+  Content-Length: 7560
+  Set-Cookie: JSESSIONID=025F4EFEF70413525BF5E7F3CC8F1161; Path=/; HttpOnly
+  Via: 1.1 www.repository.cam.ac.uk
+  Cache-Control: no-cache
+  Connection: close
+Length: 7560 (7.4K) [text/plain]
+Saving to: ‘../sourceFiles/readme.txt’
+
+     0K .......                                               100%  710K=0.01s
+
+2017-06-28 02:21:26 (710 KB/s) - ‘../sourceFiles/readme.txt’ saved [7560/7560]
+
+--2017-06-28 02:21:26--  https://www.repository.cam.ac.uk/bitstream/handle/1810/256743/data.zip
+Connecting to www.repository.cam.ac.uk|131.111.98.67|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Date: Wed, 28 Jun 2017 01:21:27 GMT
+  Server: Apache-Coyote/1.1
+  Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+  X-Cocoon-Version: 2.2.0
+  Vary: User-Agent
+  Last-Modified: Thu, 20 Oct 2016 13:50:39 GMT
+  Expires: Wed, 28 Jun 2017 02:21:27 GMT
+  Content-Type: application/zip;charset=ISO-8859-1
+  Content-Language: en-GB
+  Content-Length: 2855810
+  Via: 1.1 www.repository.cam.ac.uk
+  Cache-Control: no-cache
+  Connection: close
+Length: 2855810 (2.7M) [application/zip]
+Saving to: ‘../sourceFiles/data.zip’
+
+     0K .......... .......... .......... .......... ..........  1%  588K 5s
+    50K .......... .......... .......... .......... ..........  3%  543K 5s
+   100K .......... .......... .......... .......... ..........  5%  574K 5s
+   150K .......... .......... .......... .......... ..........  7%  610K 4s
+   200K .......... .......... .......... .......... ..........  8%  592K 4s
+   250K .......... .......... .......... .......... .......... 10%  606K 4s
+   300K .......... .......... .......... .......... .......... 12%  556K 4s
+   350K .......... .......... .......... .......... .......... 14%  562K 4s
+   400K .......... .......... .......... .......... .......... 16%  587K 4s
+   450K .......... .......... .......... .......... .......... 17%  610K 4s
+   500K .......... .......... .......... .......... .......... 19%  544K 4s
+   550K .......... .......... .......... .......... .......... 21%  611K 4s
+   600K .......... .......... .......... .......... .......... 23%  565K 4s
+   650K .......... .......... .......... .......... .......... 25%  613K 4s
+   700K .......... .......... .......... .......... .......... 26%  521K 4s
+   750K .......... .......... .......... .......... .......... 28%  292K 4s
+   800K .......... .......... .......... .......... .......... 30%  601K 4s
+   850K .......... .......... .......... .......... .......... 32% 45.5M 3s
+   900K .......... .......... .......... .......... .......... 34%  595K 3s
+   950K .......... .......... .......... .......... .......... 35%  555K 3s
+  1000K .......... .......... .......... .......... .......... 37%  609K 3s
+  1050K .......... .......... .......... .......... .......... 39%  610K 3s
+  1100K .......... .......... .......... .......... .......... 41%  510K 3s
+  1150K .......... .......... .......... .......... .......... 43%  619K 3s
+  1200K .......... .......... .......... .......... .......... 44%  604K 3s
+  1250K .......... .......... .......... .......... .......... 46%  578K 3s
+  1300K .......... .......... .......... .......... .......... 48%  576K 2s
+  1350K .......... .......... .......... .......... .......... 50%  556K 2s
+  1400K .......... .......... .......... .......... .......... 51%  606K 2s
+  1450K .......... .......... .......... .......... .......... 53%  596K 2s
+  1500K .......... .......... .......... .......... .......... 55%  550K 2s
+  1550K .......... .......... .......... .......... .......... 57%  586K 2s
+  1600K .......... .......... .......... .......... .......... 59%  601K 2s
+  1650K .......... .......... .......... .......... .......... 60%  607K 2s
+  1700K .......... .......... .......... .......... .......... 62%  512K 2s
+  1750K .......... .......... .......... .......... .......... 64%  268K 2s
+  1800K .......... .......... .......... .......... .......... 66%  660K 2s
+  1850K .......... .......... .......... .......... .......... 68% 16.4M 2s
+  1900K .......... .......... .......... .......... .......... 69%  676K 1s
+  1950K .......... .......... .......... .......... .......... 71%  547K 1s
+  2000K .......... .......... .......... .......... .......... 73%  601K 1s
+  2050K .......... .......... .......... .......... .......... 75%  589K 1s
+  2100K .......... .......... .......... .......... .......... 77%  515K 1s
+  2150K .......... .......... .......... .......... .......... 78%  643K 1s
+  2200K .......... .......... .......... .......... .......... 80%  553K 1s
+  2250K .......... .......... .......... .......... .......... 82%  630K 1s
+  2300K .......... .......... .......... .......... .......... 84%  581K 1s
+  2350K .......... .......... .......... .......... .......... 86%  543K 1s
+  2400K .......... .......... .......... .......... .......... 87%  590K 1s
+  2450K .......... .......... .......... .......... .......... 89%  622K 0s
+  2500K .......... .......... .......... .......... .......... 91%  532K 0s
+  2550K .......... .......... .......... .......... .......... 93%  624K 0s
+  2600K .......... .......... .......... .......... .......... 95%  577K 0s
+  2650K .......... .......... .......... .......... .......... 96%  587K 0s
+  2700K .......... .......... .......... .......... .......... 98%  517K 0s
+  2750K .......... .......... .......... ........             100%  693K=4.8s
+
+2017-06-28 02:21:31 (580 KB/s) - ‘../sourceFiles/data.zip’ saved [2855810/2855810]
+
+FINISHED --2017-06-28 02:21:31--
+Total wall clock time: 20s
+Downloaded: 19 files, 10M in 18s (581 KB/s)
+Converting links in ../sourceFiles/1-s2.0-S0022460X16304035-main.pdf?_tid=a2243dac-5b9c-11e7-9e15-00000aab0f01&acdnat=1498611575_dd7532b4f3f46f9b56d0d350ab084fe5.html... 4-30
+Converted links in 1 files in 0.006 seconds.
