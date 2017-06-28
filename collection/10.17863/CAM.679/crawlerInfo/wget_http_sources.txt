@@ -1,5 +1,5 @@
 https://api.crossref.org/works/10.1016/j.jsv.2016.08.015
-http://ac.els-cdn.com/S0022460X16304035/1-s2.0-S0022460X16304035-main.pdf?_tid=a2243dac-5b9c-11e7-9e15-00000aab0f01&acdnat=1498611575_dd7532b4f3f46f9b56d0d350ab084fe5
+http://ac.els-cdn.com/S0022460X16304035/1-s2.0-S0022460X16304035-main.pdf?_tid=c16c570a-5ba4-11e7-8fb6-00000aacb35e&acdnat=1498615063_2eb5eb3157381cb68c1c019798871c97
 http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr1_lrg.jpg
 http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr2_lrg.jpg
 http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr3_lrg.jpg
@@ -17,3 +17,4 @@ http://ars.els-cdn.com/content/image/1-s2.0-S0022460X16304035-gr14_lrg.jpg
 https://api.datacite.org/works/10.17863/CAM.679
 https://www.repository.cam.ac.uk/bitstream/handle/1810/256743/readme.txt
 https://www.repository.cam.ac.uk/bitstream/handle/1810/256743/data.zip
+https://www.repository.cam.ac.uk/bitstream/handle/1810/256743/license_rdf
