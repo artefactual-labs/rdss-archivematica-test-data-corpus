@@ -184,7 +184,7 @@
         "fileChecksum": [
           {
             "checksumType": "md5",
-            "checksumValue": "9d48cbd451e5406268451b49f6810ce0 "
+            "checksumValue": "9d48cbd451e5406268451b49f6810ce0"
           }
         ],
         "fileStorageLocation": "s3://10.5281/zenodo.46430/F6.large.jpg",
