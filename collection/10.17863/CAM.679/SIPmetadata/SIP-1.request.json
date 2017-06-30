@@ -47,7 +47,7 @@
         "fileChecksum": [
           {
             "checksumType": "md5",
-            "checksumValue": "c539adc06679b42a190bd2b54917e71e "
+            "checksumValue": "c539adc06679b42a190bd2b54917e71e"
           }
         ],
         "fileStorageLocation": "s3://10.17863/CAM.679/data.zip",
@@ -60,7 +60,7 @@
         "fileChecksum": [
           {
             "checksumType": "md5",
-            "checksumValue": "93f486142ef49faaf84ae39527034f9b "
+            "checksumValue": "93f486142ef49faaf84ae39527034f9b"
           }
         ],
         "fileStorageLocation": "s3://10.17863/CAM.679/readme.txt",
