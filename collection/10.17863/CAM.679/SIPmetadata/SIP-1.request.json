@@ -50,7 +50,7 @@
             "checksumValue": "c539adc06679b42a190bd2b54917e71e "
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/data.zip",
+        "fileStorageLocation": "s3://10.17863/CAM.679/data.zip",
         "fileStorageType": "S3"
       },
       {
@@ -63,7 +63,7 @@
             "checksumValue": "93f486142ef49faaf84ae39527034f9b "
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/readme.txt",
+        "fileStorageLocation": "s3://10.17863/CAM.679/readme.txt",
         "fileStorageType": "S3"
       },
       {
@@ -76,7 +76,7 @@
             "checksumValue": "a6f054f16d0b5ce956692cb0ccba93c1"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/license_rdf",
+        "fileStorageLocation": "s3://10.17863/CAM.679/license_rdf",
         "fileStorageType": "S3"
       }
     ]
