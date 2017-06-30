@@ -50,7 +50,7 @@
             "checksumValue": "97cc6218ddd8b97ca8089c92e4215001"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-main.pdf",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-main.pdf",
         "fileStorageType": "S3"
       },
       {
@@ -63,7 +63,7 @@
             "checksumValue": "eb01e0d6c1941a7bab2a72c521804238"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr1_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr1_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -76,7 +76,7 @@
             "checksumValue": "437caaca9f84cfe6a742f6b466767a5d"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr2_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr2_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -89,7 +89,7 @@
             "checksumValue": "6703294645d22a39ba7fe47838a5e5a3"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr3_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr3_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -102,7 +102,7 @@
             "checksumValue": "7759ad228f469373d5b78d5a855ad895"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr4_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr4_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -115,7 +115,7 @@
             "checksumValue": "ec8f3f891b3ebda2a8fe509d7f246a28"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr5_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr5_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -128,7 +128,7 @@
             "checksumValue": "1deeb703d745a71646cc3e2acb018bf0"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr6_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr6_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -141,7 +141,7 @@
             "checksumValue": "e1a43818b97e67a9b599a1124d7164cf"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr7_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr7_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -154,7 +154,7 @@
             "checksumValue": "a20750bb8819e3fa8ef9bdcae38e1823"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr8_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr8_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -167,7 +167,7 @@
             "checksumValue": "db78eada6ad4248c3eca8373c33cd07a"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr9_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr9_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -180,7 +180,7 @@
             "checksumValue": "44445d6807f642ed24032f24436fc3b4"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr10_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr10_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -193,7 +193,7 @@
             "checksumValue": "3ebec445423970fefe22945d3a9381cd"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr11_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr11_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -206,7 +206,7 @@
             "checksumValue": "3fa394056a483d1eef4d9abfaf21566d"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr12_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr12_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -219,7 +219,7 @@
             "checksumValue": "ef154f25edc587785ad1e93e914710e5"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr13_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -232,7 +232,7 @@
             "checksumValue": "2981757e04c4905bd376f69e8902489f"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg",
+        "fileStorageLocation": "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr13_lrg.jpg",
         "fileStorageType": "S3"
       },
       {
@@ -245,7 +245,7 @@
             "checksumValue": "c539adc06679b42a190bd2b54917e71e "
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/data.zip",
+        "fileStorageLocation": "s3://10.17863/CAM.679/data.zip",
         "fileStorageType": "S3"
       },
       {
@@ -258,7 +258,7 @@
             "checksumValue": "93f486142ef49faaf84ae39527034f9b "
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/readme.txt",
+        "fileStorageLocation": "s3://10.17863/CAM.679/readme.txt",
         "fileStorageType": "S3"
       },
       {
@@ -271,7 +271,7 @@
             "checksumValue": "a6f054f16d0b5ce956692cb0ccba93c1"
           }
         ],
-        "fileStorageLocation": "s3://10.17863/CAM.679/sourceFiles/license_rdf",
+        "fileStorageLocation": "s3://10.17863/CAM.679/license_rdf",
         "fileStorageType": "S3"
       }
     ]
