@@ -40,7 +40,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "97cc6218ddd8b97ca8089c92e4215001"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-main.pdf"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-main.pdf"
     fileStorageType: "S3"
   - fileUUID: ""
     fileIdentifier: ""
@@ -48,7 +48,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "eb01e0d6c1941a7bab2a72c521804238"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr1_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr1_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "4b08c1ca-00f8-46b2-9eee-1ca64098c601"
     fileIdentifier: "60dc5a91-44b9-4a15-ba38-c18c6621a1da"
@@ -56,7 +56,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "437caaca9f84cfe6a742f6b466767a5d"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr2_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr2_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "b621e9ce-ad90-47d7-bbe5-a895ea3c553c"
     fileIdentifier: ""
@@ -64,7 +64,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "6703294645d22a39ba7fe47838a5e5a3"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr3_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr3_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "9a7afa09-0edf-46f0-b937-16bc595f253d"
     fileIdentifier: ""
@@ -72,7 +72,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "7759ad228f469373d5b78d5a855ad895"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr4_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr4_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "3de343c2-4fc9-4334-b355-31ab5feba11b"
     fileIdentifier: ""
@@ -80,7 +80,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "ec8f3f891b3ebda2a8fe509d7f246a28"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr5_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr5_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "47c0763f-f338-4bef-befc-b6cd6cae4410"
     fileIdentifier: ""
@@ -88,7 +88,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "1deeb703d745a71646cc3e2acb018bf0"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr6_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr6_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "e07b399d-145c-4e8c-b209-1bd64ee1eb34"
     fileIdentifier: ""
@@ -96,7 +96,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "e1a43818b97e67a9b599a1124d7164cf"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr7_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr7_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "ac80b093-ded9-42d9-b5fc-bd9a4d853e86"
     fileIdentifier: ""
@@ -104,7 +104,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "a20750bb8819e3fa8ef9bdcae38e1823"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr8_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr8_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "80ae1a63-8c3d-4421-9c7e-4ef9a4f08635"
     fileIdentifier: ""
@@ -112,7 +112,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "db78eada6ad4248c3eca8373c33cd07a"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr9_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr9_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "ae929525-5924-45de-8dbc-91ae9bf8acaa"
     fileIdentifier: ""
@@ -120,7 +120,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "44445d6807f642ed24032f24436fc3b4"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr10_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr10_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "7fb621ff-f445-4c8f-8341-7e4656c8504d"
     fileIdentifier: ""
@@ -128,7 +128,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "3ebec445423970fefe22945d3a9381cd"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr11_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr11_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "056a6ece-d360-427c-a167-13a08c09a8fe"
     fileIdentifier: ""
@@ -136,7 +136,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "3fa394056a483d1eef4d9abfaf21566d"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr12_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr12_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "23a6f866-6b19-4b88-91bd-fca01b918d35"
     fileIdentifier: ""
@@ -144,7 +144,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "ef154f25edc587785ad1e93e914710e5"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr13_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "d19627fa-455a-4904-b0b8-2e641ebc96cf"
     fileIdentifier: ""
@@ -152,7 +152,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "2981757e04c4905bd376f69e8902489f"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/1-s2.0-S0022460X16304035-gr13_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr13_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "c6b96b91-1b1a-4752-afbe-d8269ad0b7f3"
     fileIdentifier: ""
@@ -160,7 +160,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "c539adc06679b42a190bd2b54917e71e "
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/data.zip"
+    fileStorageLocation: "s3://10.17863/CAM.679/data.zip"
     fileStorageType: "S3"
   - fileUUID: ""
     fileIdentifier: ""
@@ -168,7 +168,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "93f486142ef49faaf84ae39527034f9b "
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/readme.txt"
+    fileStorageLocation: "s3://10.17863/CAM.679/readme.txt"
     fileStorageType: "S3"
   - fileUUID: "a6157f14-6888-4223-bc6b-e037e059c934"
     fileIdentifier: ""
@@ -176,5 +176,5 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "a6f054f16d0b5ce956692cb0ccba93c1"
-    fileStorageLocation: "s3://10.17863/CAM.679/sourceFiles/license_rdf"
+    fileStorageLocation: "s3://10.17863/CAM.679/license_rdf"
     fileStorageType: "S3"
