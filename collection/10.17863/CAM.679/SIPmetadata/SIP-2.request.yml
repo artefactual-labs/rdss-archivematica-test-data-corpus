@@ -152,7 +152,7 @@ messageBody:
     fileChecksum:
       - checksumType: "md5"
         checksumValue: "2981757e04c4905bd376f69e8902489f"
-    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr13_lrg.jpg"
+    fileStorageLocation: "s3://10.17863/CAM.679/1-s2.0-S0022460X16304035-gr14_lrg.jpg"
     fileStorageType: "S3"
   - fileUUID: "c6b96b91-1b1a-4752-afbe-d8269ad0b7f3"
     fileIdentifier: ""
